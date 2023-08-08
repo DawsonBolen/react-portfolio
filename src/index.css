@@ -1,13 +1,354 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hide {
+  display: none !important;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 1rem auto;
+  align-items: center;
+}
+
+.github-button {
+  background-color: #769342;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.github-button:hover {
+  background-color: #934276;
+}
+
+
+.nav-item a {
+  display: block;
+  padding: 10px 20px;
+  color: #427693;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  background-color: #934276;
+  color: white;
+}
+
+
+
+
+
+#whatido {
+  background-color: #bddbe5;
+  padding: 10px;
+}
+
+#whatido h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #427693;
+  text-align: center;
+  padding: 150px 0 5px 0;
+  font-weight: 500;
+}
+
+.style-line-1 {
+  width: 300px;
+  height: 3px;
+  margin: 0 auto 50px auto;
+  background-color: #427693;
+
+}
+
+#cards {
+  width: 85%;
+  margin: 10px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  flex: 1 1 350px;
+
+}
+
+.card h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #934276;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.card p {
+  font-family: 'Oswald', sans-serif;
+  padding: 20px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+/*the cards grow a border and box shadow when they are hovered over */
+
+.card:hover {
+  border: 3px solid #769342;
+  box-shadow: 3px 2px 3px gray;
+}
+
+
+/*the cards grow a border and box shadow when they are hovered over */
+
+
+
+.skill-button {
+  background-color: #769342;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  width: 70px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.skill-button:hover {
+  background-color: #934276 !important;
+}
+
+
+.hamburger-menu {
+  display: none;
+}
+
+footer {
+
+  background-color: #427693;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contact img {
+  margin-right: 0.5em;
+}
+
+/* About */
+
+.about-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 14%;
+  align-items: center;
+  background-color: #427693;
+}
+
+.about-main img {
+  margin-right: 2em;
+}
+
+
+
+.about-description h3 {
+  font-size: 25px;
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+.about-description p {
+  color: white;
+}
+
+#skills-and-education {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.skills-card {
+  min-width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.about-skills {
+  background-color: #efefef;
+  padding: 3rem 0;
+}
+
+
+
+.skills-card h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #427693;
+  font-size: 25px;
+  font-weight: 400;
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+.skills-card img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.skills-card p {
+  font-family: 'Oswald', sans-serif;
+  padding: 5px 0;
+  font-weight: 300;
+}
+
+
+.iconplusheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.skills-card h3 {
+  margin-left: 0.5em;
+}
+
+
+#web-dev-header {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .nav {
+    display: none;
+  }
+
+  .github-button {
+    display: none;
+  }
+
+  .myskills {
+    width: 90%;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+  }
+
+  .hamburger-bar {
+    background-color: #427693;
+    width: 25px;
+    height: 4px;
+    border-radius: 50px;
+
+  }
+
+  .hamburger-menu:hover>.hamburger-bar {
+    background-color: #934276;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 2em;
+    align-items: center;
+    background-color: #427693;
+  }
+
+  .about-description {
+    text-align: center;
+    max-width: 500px;
+  }
+
+  #skills-and-education {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+  }
+
+  footer a {
+    margin-bottom: 1em;
+    margin-left: 40%;
+
+  }
 }
