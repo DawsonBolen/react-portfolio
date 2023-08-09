@@ -127,38 +127,35 @@ const projectsArray = [
 
 
 function WebDevProjects(props) {
-    const projectsArray = props.project;
 
 
     return (
         <div className="web-projects">
-            {projectsArray.map(project => (
-                <div key={project.id} className="web-project" style={{ backgroundImage: `url(${project.image})` }}>
-                    <div className="show-more">
-                        <h5>{project.title}</h5>
-                        <button data-index={project.id} className="read-more">
-                            Read More
-                        </button>
-                    </div>
-                    <div className="web-projects-content hide">
-                        <div className="x-btn-container">
-                            <div>
-                                <h4>{project.title}</h4>
-                            </div>
-                            <div className="x-btn">
-                                <div className="bars bar-1"></div>
-                                <div className="bars bar-2"> </div>
-                            </div>
-                        </div>
-
-                        <p>{project.description}</p>
-                        <a href={project.link}>View
-                            <button>Site</button></a>
-                    </div>
+            <div key={props.project.id} className="web-project" style={{ backgroundImage: `url(${props.project.image})` }}>
+                <div className="show-more">
+                    <h5>{props.project.title}</h5>
+                    <button data-index={props.project.id} className="read-more">
+                        Read More
+                    </button>
                 </div>
+                <div className="web-projects-content hide">
+                    <div className="x-btn-container">
+                        <div>
+                            <h4>{props.project.title}</h4>
+                        </div>
+                        <div className="x-btn">
+                            <div className="bars bar-1"></div>
+                            <div className="bars bar-2"> </div>
+                        </div>
+                    </div>
 
-            ))
-            }
+                    <p>{props.project.description}</p>
+                    <a href={props.project.link}>View
+                        <button>Site</button></a>
+                </div>
+            </div>
+
+
         </div>
     );
 }
