@@ -10,7 +10,7 @@ const styles = {
         paddingTop: '56.25%',
     },
 
-};
+}
 
 
 
