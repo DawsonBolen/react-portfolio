@@ -30,9 +30,9 @@ export default function WebDev() {
                 <div className="web-projects">
                     {projectsArray.map(project => (
                         <WebDevProjects key={project.id} project={project} />
-                    ))};
+                    ))}
                 </div>
             </section>
         </main>
-    );
+    )
 }
