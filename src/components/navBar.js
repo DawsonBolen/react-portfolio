@@ -1,10 +1,16 @@
 import React from 'react';
 
+const styles = {
+    headerLogo: {
+        width: '150px',
+        height: '40px',
+    }
+}
 
 function NavBar({ currentPage, handlePageChange }) {
     return (
         <div className="main-header">
-            <img className="header-logo" src='images/header-logo.png' width="150px" height="40px"></img>
+            <img className="header-logo" style={styles.headerLogo} src={process.env.PUBLIC_URL + "/images/header-logo.png"}></img>
 
 
             <ul className="nav nav-tabs">

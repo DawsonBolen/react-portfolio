@@ -1,9 +1,9 @@
 import React from 'react';
-import { projectsArray, WebDevProjects } from '../webProjects';
-
+import { projectsArray } from '../../projectData';
+import WebDevProjects from "../webProjects"
 const styles = {
     webHead: {
-        backgroundImage: 'url("images/realwebdevtop.jpg")',
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/realwebdevtop.jpg)`,
         width: '100%',
         height: '300px',
         textAlign: 'center',
@@ -14,9 +14,6 @@ const styles = {
         justifyContent: 'center',
     }
 }
-
-
-
 
 
 

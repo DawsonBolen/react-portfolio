@@ -9,7 +9,7 @@ export default function About() {
         <main className="about">
             <section className='about-main'>
                 <div className='about-image'>
-                    <img src="images/gradpicwring.png" width="300px"></img>
+                    <img src={process.env.PUBLIC_URL + "images/gradpicwring.png"} width="300px"></img>
                 </div>
                 <div className='about-description'>
                     <h3>About Me</h3>
