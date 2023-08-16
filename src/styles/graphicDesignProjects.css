@@ -1,0 +1,157 @@
+/*this is used to style all of the other components on the graphic design portfolio page*/
+
+.design-project-2 {
+    width: 405px;
+    border: 5px solid #427693;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.design-project-2 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.design-title {
+    background-color: #427693;
+    width: 100%;
+    text-align: center;
+    padding: .25em 0;
+}
+
+
+.design-project-2 p {
+    margin: 0.5em;
+    font-size: 14px;
+}
+
+.posters-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.posters-control {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #427693;
+    align-items: center;
+}
+
+.posters-control h2 {
+    color: white;
+    margin-left: 2em;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+.posters-content {
+    display: flex;
+    padding: 0.5em 4em;
+    background-color: #efefef;
+}
+
+.poster-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.poster-button:hover {
+    background-color: #934276;
+}
+
+.poster-button[active] {
+    background-color: #934276;
+}
+
+.posters-content-2 {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+
+#control-btns {
+    display: flex;
+}
+
+.poster-btn-img {
+    height: 50px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .posters-content {
+        display: flex;
+        padding: 0.25em 2em;
+        background-color: #efefef;
+    }
+
+    .posters-content-2 {
+        margin-left: 1rem;
+        padding: 0.25em 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .posters-control h2 {
+        font-size: 40px;
+        margin-left: 0.25em;
+    }
+
+    .posters-content {
+        display: flex;
+        padding: 0.25em 2em;
+        background-color: #efefef;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .posters-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .posters-content-2 {
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .posters-control {
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .poster-btn-img {
+        height: 35px;
+    }
+
+    .poster-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+}

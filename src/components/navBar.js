@@ -18,7 +18,7 @@ function NavBar({ currentPage, handlePageChange }) {
                     <a
                         href="#home"
                         onClick={() => handlePageChange('Home')}
-                        //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+
 
                         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                     >
@@ -73,17 +73,6 @@ function NavBar({ currentPage, handlePageChange }) {
             <a href="https://github.com/DawsonBolen" target='_blank'>
                 <button className='github-button'>github</button>
             </a>
-            <div className='hamburger-menu'>
-                <div className='hamburger-bar'>
-
-                </div>
-                <div className='hamburger-bar'>
-
-                </div>
-                <div className='hamburger-bar'>
-
-                </div>
-            </div>
         </div>
     );
 }

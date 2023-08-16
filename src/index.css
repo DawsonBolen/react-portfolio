@@ -3,6 +3,16 @@ code {
     monospace;
 }
 
+a {
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+
 .hide {
   display: none !important;
 }
@@ -50,6 +60,11 @@ code {
 .nav-item a:hover {
   background-color: #934276;
   color: white;
+}
+
+.nav-item a:active {
+  font-weight: 800;
+  background-color: #93424d;
 }
 
 
@@ -145,9 +160,7 @@ code {
 }
 
 
-.hamburger-menu {
-  display: none;
-}
+
 
 footer {
 
@@ -186,9 +199,7 @@ footer a {
   background-color: #427693;
 }
 
-.about-main img {
-  margin-right: 2em;
-}
+
 
 
 
@@ -264,8 +275,9 @@ footer a {
 
 #web-dev-header {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 800;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
 }
 
 
@@ -282,7 +294,7 @@ footer a {
   margin: 0 auto;
 }
 
-.web-project {
+.web-proj {
   width: 350px;
   height: 230px;
   background-size: cover;
@@ -291,7 +303,29 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.web-project {
   margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.view-site {
+  color: #427693;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.1em 1em;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+
+}
+
+.view-site:hover {
+  background-color: #934276;
 }
 
 
@@ -316,15 +350,279 @@ footer a {
   border: none;
   border-radius: 40px;
   width: 100px;
-  height: 30px;
+  height: 28px;
   font-size: 16px;
   font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .read-more:hover {
   background-color: #934276;
   color: white;
 }
+
+
+.web-projects-content {
+  width: 350px;
+  padding: 1em;
+  background-color: #427693;
+}
+
+.web-projects-content p {
+  color: white;
+}
+
+.repo-link {
+  color: white;
+}
+
+.repo-link:hover {
+  color: #934276;
+}
+
+.read-more:hover .x-btn .bars {
+  background-color: white;
+}
+
+
+.x-btn div {
+  background-color: #427693;
+  width: 2px;
+  height: 15px;
+
+}
+
+.x-btn {
+  margin-right: 0.25em;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding-right: 2px;
+
+}
+
+.bar-1 {
+  transform: translateX(2px) rotate(45deg);
+}
+
+.bar-2 {
+  transform: rotate(-45deg);
+
+}
+
+
+
+/* .x-btn:hover {
+  background-color: lightgrey;
+  opacity: 0.9;
+}
+
+.x-btn:hover>.bars {
+  background-color: #93424d;
+} */
+
+#contact-top {
+  background-color: #427693;
+  width: 100%;
+  text-align: center;
+}
+
+#contact-top h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+#contact-top h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+.contact-top-links {
+  text-decoration: none;
+
+}
+
+.line-style-2 {
+  width: 50%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 75px;
+}
+
+
+#contactcards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contactcards h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#contactcards p {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  padding-bottom: 100px;
+}
+
+
+#emailformbod {
+  padding: 100px 0 100px 0;
+}
+
+#email-form-body {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailiconimg {
+  margin-right: 40px;
+}
+
+.containerc {
+  margin-left: 40px;
+}
+
+
+form {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+input,
+textarea,
+label {
+  display: block;
+
+}
+
+#name,
+#email,
+#subject {
+  height: 22px;
+}
+
+.Contact {
+  background-color: #efefef;
+}
+
+#butn {
+  background-color: #427693;
+  padding: 7px 4px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  width: 400px;
+}
+
+#butn:hover {
+  background-color: #934276;
+}
+
+#emailformheader {
+  font-size: 45px;
+  color: #427693;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+input,
+textarea {
+  color: black;
+  width: 400px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+
+/* mobile nav */
+
+.nav-x-btn-container {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  padding-right: 2px;
+}
+
+.nav-x-btn-container div {
+  background-color: white;
+  width: 2px;
+  height: 20px;
+}
+
+.nav-x-btn-container:hover>div {
+  background-color: #934276;
+}
+
+.nav-x-btn-container :nth-child(1) {
+  transform: translatex(2px) rotate(45deg);
+}
+
+.nav-x-btn-container :nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+.nav-tabs-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item-mobile {
+  background-color: #934276;
+  width: 100%;
+  color: white;
+  padding: 0.25em;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+.hamburger-bar {
+  background-color: #427693;
+  width: 25px;
+  height: 4px;
+  border-radius: 50px;
+
+}
+
+.hamburger-menu:hover>.hamburger-bar {
+  background-color: #934276;
+}
+
 
 
 @media screen and (max-width: 1200px) {
@@ -338,9 +636,6 @@ footer a {
 
 
 @media screen and (max-width: 992px) {
-  .nav {
-    display: none;
-  }
 
   .github-button {
     display: none;
@@ -350,42 +645,26 @@ footer a {
     width: 90%;
   }
 
-  .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 20px;
-    position: absolute;
-    top: 25px;
-    right: 50px;
-  }
 
-  .hamburger-bar {
-    background-color: #427693;
-    width: 25px;
-    height: 4px;
-    border-radius: 50px;
+  input,
+  textarea {
+    width: 320px;
 
   }
 
-  .hamburger-menu:hover>.hamburger-bar {
-    background-color: #934276;
+  #emailformbod {
+    padding: 300px 0;
   }
 
-
+  #email-form-body {
+    width: 80%;
+  }
 
 }
 
 
 @media screen and (max-width: 768px) {
-  .about-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1em 2em;
-    align-items: center;
-    background-color: #427693;
-  }
+
 
   .about-description {
     text-align: center;
@@ -409,5 +688,65 @@ footer a {
     margin-bottom: 1em;
     margin-left: 40%;
 
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+  #contactcards {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactlinks {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .contactlinks-row2 {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+
+  #email-form-body {
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    width: 400px;
+  }
+
+  .containerc {
+    margin-left: 0;
+  }
+
+  .emailiconimg {
+    margin-right: 0;
+  }
+
+  #emailformbod {
+    padding: 100px 0;
+  }
+
+  #emailformheader {
+    margin-bottom: 0.25em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  input,
+  textarea {
+    width: 325px;
+  }
+
+  #butn {
+    width: 325px;
   }
 }

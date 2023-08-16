@@ -1,0 +1,437 @@
+#GDheader {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+
+}
+
+
+
+#drink-campaign-description {
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#drink-campaign-description p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0.25em;
+}
+
+#pepsi-earth {
+    border: 2px solid #427693;
+    max-width: 400px;
+}
+
+#drink-camp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+#drink-campaign-heading-1 {
+    color: #427693;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    margin-left: .5em;
+    margin-top: 7px;
+}
+
+#cups-icon {
+    height: 4em;
+}
+
+#drink-camp-mobile {
+    display: none;
+
+}
+
+#cups-icon-mobile {
+    height: 3em;
+}
+
+#drink-campaign-heading-1-mobile {
+    color: #427693;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+    margin-left: .5em;
+    margin-top: 7px;
+}
+
+/* #drink-campaign-main {
+    display: grid;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+    grid-template: repeat(6, minmax(50px, 225px)) / repeat(5, minmax(50px, 225px));
+    grid-gap: 10px;
+    background-color: #e6e6e6;
+    padding: 10px;
+} */
+
+#drink-campaign-description-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 3rem;
+}
+
+
+#gallery-or-slider {
+    width: 80%;
+    margin: 0 auto;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #e6e6e6;
+    align-items: center;
+    cursor: pointer;
+}
+
+#slider-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #427693;
+}
+
+#galery-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #427693;
+}
+
+#galery-btn:hover {
+    background-color: #934276;
+}
+
+#slider-btn:hover {
+    background-color: #934276;
+}
+
+
+.drinkcampaign-content {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.design-section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.posters {
+    width: 80%;
+    margin: 2em auto;
+}
+
+#design-section-3 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p3-img {
+    width: 500px;
+}
+
+.deseign-3-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.design-3-description {
+    width: 500px;
+    background-color: #e6e6e6;
+    padding: 0.5em;
+    height: 175px;
+}
+
+.green-line {
+    background-color: #769342;
+    width: 150px;
+    height: 3px;
+}
+
+.purple-line {
+    background-color: #934276;
+    width: 100px;
+    height: 4px;
+    margin-top: 3px;
+}
+
+.design-3-description h3 {
+    color: #427693;
+    font-size: 25px;
+}
+
+.design-3-description p {
+    font-size: 14px;
+}
+
+.design-3-img {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+#lapel {
+    border: 1px solid #427693;
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+    #drink-campaign-description {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .p3-img {
+        width: 400px;
+    }
+
+    .design-3-img {
+        background-color: #e6e6e6;
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 400px;
+    }
+
+    .design-3-description {
+        width: 400px;
+        background-color: #e6e6e6;
+        padding: 0.5em;
+        height: 175px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+
+    #drink-campaign-heading-1 {
+        font-size: 2em;
+    }
+
+    #cups-icon {
+        height: 2.25em;
+    }
+
+    #drink-campaign-description p {
+        font-size: 14px;
+    }
+
+
+    #drink-campaign-description {
+        width: 95%;
+        margin: 3rem auto;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .design-section-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #design-section-3 {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #drink-campaign-description {
+        width: 95%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #drink-camp-mobile {
+        display: flex;
+        margin: 2em auto 1em auto;
+    }
+
+    #drink-campaign-description-2 {
+        align-items: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    #drink-campaign-description-2 p {
+        margin-top: 0.5em;
+        max-width: 500px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #drink-camp {
+        display: none;
+    }
+
+    #pepsi-earth {
+        width: 500px;
+    }
+
+
+    #cups-icon-mobile {
+        height: 3.5em;
+    }
+
+    #drink-campaign-heading-1-mobile {
+        font-size: 3em;
+    }
+
+    #gd-top h1 {
+        font-size: 3em;
+    }
+
+    #drink-campaign-head h1 {
+        font-size: 3em;
+    }
+
+    .posters {
+        width: 95%;
+        margin: 2em auto;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    #pepsi-earth {
+        max-width: 500px;
+    }
+
+    #cups-icon-mobile {
+        height: 2.75em;
+    }
+
+    #drink-campaign-heading-1-mobile {
+        font-size: 2.5em;
+    }
+
+    #design-section-3 {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+
+    #cups-icon-mobile {
+        height: 2.5em;
+    }
+
+    #drink-campaign-heading-1-mobile {
+        font-size: 2.25em;
+    }
+
+
+
+    #gd-top h1 {
+        font-size: 2.5em;
+    }
+
+
+
+    #pepsi-earth {
+        max-width: 350px;
+    }
+
+
+    .design-3-img {
+        background-color: #e6e6e6;
+        display: flex;
+        justify-content: center;
+        width: 380px;
+        height: 380px;
+    }
+
+    .design-3-description {
+        width: 380px;
+        background-color: #e6e6e6;
+        padding: 0.5em;
+        min-height: 175px;
+    }
+
+    .p3-img {
+        width: 380px;
+    }
+
+}
+
+
+@media screen and (max-width:300px) {
+    #pepsi-earth {
+        max-width: 250px;
+    }
+
+    #cups-icon-mobile {
+        height: 2.25em;
+    }
+
+    #drink-campaign-heading-1-mobile {
+        font-size: 2em;
+    }
+
+    .design-3-img {
+        background-color: #e6e6e6;
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        height: 280px;
+    }
+
+    .design-3-description {
+        width: 280px;
+        background-color: #e6e6e6;
+        padding: 0.25em;
+        min-height: 175px;
+    }
+
+    .p3-img {
+        width: 280px;
+    }
+
+}
