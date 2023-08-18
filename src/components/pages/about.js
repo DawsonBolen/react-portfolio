@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../styles/about.css';
 
 
 
 
 export default function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <main className="about">
             <section className='about-main'>
@@ -42,7 +45,7 @@ export default function About() {
                         <div className='education-line'></div>
                         <div className='education-row'>
                             <h5>UC Berkely</h5>
-                            <p>I have a bachelors degree in Digital Technology and Culture (DTC) and a minor in communications from Washington State University. I studied UX Design, Web Development, Graphic design, and several other topics related to digital media.</p>
+                            <p>I took a full stack web development coding bootcamp throught the University of California Berkeley. The class focused on JavaScript and the MERN stack. It helped me become a proficient full stack developer and improve my skills a lot.</p>
                         </div>
                     </div>
                 </div>

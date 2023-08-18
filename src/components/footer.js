@@ -22,6 +22,12 @@ export default function Footer() {
                     <p className="footerpar">Dawson Bolen</p>
                 </div>
             </a>
+            <a id='github-footer' className="footer-link" href="https://github.com/DawsonBolen">
+                <div className="footer-contact">
+                    <img src={process.env.PUBLIC_URL + "/images/github-icon.png"} width="25px" height="25px" alt="linkedin"></img>
+                    <p className="footerpar">DawsonBolen</p>
+                </div>
+            </a>
 
         </footer>
     );

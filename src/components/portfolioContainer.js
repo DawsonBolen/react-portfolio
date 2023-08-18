@@ -6,6 +6,7 @@ import About from './pages/about';
 import GraphicDesign from './pages/graphicDesign';
 import Contact from './pages/contact';
 import WebDev from './pages/webDev';
+import Skills from './skills';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -13,7 +14,7 @@ export default function PortfolioContainer() {
 
     const renderPage = () => {
         if (currentPage === 'Home') {
-            return <Home />;
+            return <Home handlePageChange={handlePageChange} />;
         }
         if (currentPage === 'About') {
             return <About />;

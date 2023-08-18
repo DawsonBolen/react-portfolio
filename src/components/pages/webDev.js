@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { projectsArray } from '../../projectData';
 import WebDevProjects from "../webProjects"
 const styles = {
@@ -18,6 +18,10 @@ const styles = {
 
 
 export default function WebDev() {
+    useEffect(() => {
+        // Scrolls to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <main className="WebDev">
             <section style={styles.webHead} id="web-dev-head">

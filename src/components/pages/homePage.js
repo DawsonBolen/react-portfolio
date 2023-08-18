@@ -19,14 +19,15 @@ const styles = {
 
 
 
-export default function Home() {
+export default function Home({ handlePageChange }) {
+    const currentPage = 'Home';
     return (
         <main className="main-home">
             <section style={styles.homePic} className='home-image'>
 
             </section>
             <section id="whatido">
-                <Skills />
+                <Skills handlePageChange={handlePageChange} currentPage={currentPage} />
             </section>
 
         </main>

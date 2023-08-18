@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../styles/GraphicDesign.css';
 import DrinkCampaignDisplay from '../drinkCampaign';
 import DesignSectionTwo from '../DesignSectionTwo.js';
@@ -20,6 +20,9 @@ const styles = {
 
 
 export default function GraphicDesign() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <main className="GraphicDesign">
             <section style={styles.GDhead} id="GD-head">
