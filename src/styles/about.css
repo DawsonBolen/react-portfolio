@@ -312,6 +312,15 @@ p {
 
 }
 
+.education-school-icon {
+    display: flex;
+    align-items: center;
+}
+
+.education-school-icon img {
+    margin-right: 0.5em;
+}
+
 
 
 @media screen and (max-width: 1200px) {
@@ -383,6 +392,15 @@ p {
     .resume-line {
         width: 75%;
 
+    }
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1em 2em;
+        align-items: center;
+        background-color: #427693;
     }
 
 }

@@ -55,10 +55,10 @@ export const projectsArray = [
     {
         id: 8,
         title: 'Portfolio',
-        description: "I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code. I originally made a multi page portfolio but then converted it to React in order to practice my react skills. I wanted to mention that on top of the work I've shown, every Icon, and Graphic I have created myself using mainly Illustrator.",
-        link: '',
+        description: "I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code. I originally made a multi page portfolio but then converted it to React in order to practice my react skills. I wanted to mention that on top of the work I've shown, every Icon, and Graphic I have created myself using mainly Illustrator, with an exception to lots of the logos in the skills section of my about page. If you would also like to see my old portfolio, I have that linked on the README.",
+        link: 'https://dawsonbolen.github.io/react-portfolio/',
         image: '/project-images/portfolio.jpg',
-        repo: '',
+        repo: 'https://github.com/DawsonBolen/react-portfolio',
 
     },
     {

@@ -16,13 +16,7 @@ export default function About() {
                 </div>
                 <div className='about-description'>
                     <h3>About Me</h3>
-                    <p>My name is Dawson Bolen. I studied Digital Technology and Culture (DTC) with a minor in communications at
-                        Washington State University. I have a background in graphic design and digital media dating back to high
-                        school. I love using the adobe creative apps such as photoshop, Illustrator, and In Design. I also have
-                        experience creating webpages as I've created this one from scratch. I am knowledgable in html5, CSS3, and
-                        JavaScript. I have experience creating webpages for various organizations, most notably YAAANA who I
-                        interned for as a web developer. I would say that my skills and expeerience creating webpages, editing
-                        images and creating graphics is something that sets me apart as a front end developer.</p>
+                    <p>Hello everyone, my name is Dawson. I am a recent graduate of WSU where I studied Digital Technology and Culture. I focused on UX Design, Graphic Design, and Web Development in my studies there. I am currently enrolled in a full-stack web development (JavaScript) bootcamp through UC Berkeley. Through my education, I have become a web developer with a strong foundation in UX design and graphic design. I am proficient in HTML5, CSS3, JavaScript, and react. I also am skilled in node.js, express.js, mongodb and sql. Additionally, I have some experience with php and graphql. I am more front end focused because I enjoy design and visual layout, but I am a full stack MERN developer.</p>
                 </div>
             </section>
 
@@ -39,12 +33,20 @@ export default function About() {
                     </div>
                     <div id='education-content'>
                         <div className='education-row'>
-                            <h5>Washington State University</h5>
+                            <div className='education-school-icon'>
+                                <img src={process.env.PUBLIC_URL + "/images/wsu-logo.png"} height="35px"
+                                    alt="Washington State University logo"></img>
+                                <h5>Washington State University</h5>
+                            </div>
                             <p>I have a bachelors degree in Digital Technology and Culture (DTC) and a minor in communications from Washington State University. I studied UX Design, Web Development, Graphic design, and several other topics related to digital media.</p>
                         </div>
                         <div className='education-line'></div>
                         <div className='education-row'>
-                            <h5>UC Berkely</h5>
+                            <div className='education-school-icon'>
+                                <img src={process.env.PUBLIC_URL + "/images/ucb-logo.png"} height="30px"
+                                    alt="University of California Berkeley logo"></img>
+                                <h5>UC Berkely</h5>
+                            </div>
                             <p>I took a full stack web development coding bootcamp throught the University of California Berkeley. The class focused on JavaScript and the MERN stack. It helped me become a proficient full stack developer and improve my skills a lot.</p>
                         </div>
                     </div>
