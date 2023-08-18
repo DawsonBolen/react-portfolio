@@ -451,6 +451,22 @@ p {
         width: 90%;
 
     }
+
+    .pr1-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pr1-2 a {
+        margin-bottom: 0.1em;
+
+    }
+
+    .about-project-repo-btn {
+        margin-left: 0;
+
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -487,6 +503,50 @@ p {
 
     }
 
+    .skill-cell {
+        margin: 0.25em;
+
+    }
+
+    .pr1-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-top: 10px;
+        flex-direction: row;
+    }
+
+    /* .pr1-2 a {
+        margin-bottom: 0.1em;
+
+    } */
+
+    /* .about-project-repo-btn {
+        margin-left: 0;
+
+    } */
+    .about-project-repo-btn {
+        width: 40px;
+        height: 14px;
+        background-color: #769342;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .about-project-btn {
+        width: 40px;
+        height: 14px;
+        background-color: #769342;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
 
 }
 
@@ -521,5 +581,17 @@ p {
 
     .project-line {
         width: 99%;
+    }
+
+    #skills-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .skill-cell {
+        margin: 0.5em 0.1;
+
+
     }
 }

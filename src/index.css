@@ -168,6 +168,7 @@ footer {
   padding: 15px 50px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -728,17 +729,17 @@ textarea {
     align-items: flex-start;
   }
 
-  footer {
+  /* 
+   footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 
 
-  }
+  } */
 
   footer a {
     margin-bottom: 1em;
-    margin-left: 40%;
 
   }
 
