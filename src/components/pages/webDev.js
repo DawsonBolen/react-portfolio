@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { projectsArray } from '../../projectData';
 import WebDevProjects from "../webProjects"
+import '../../styles/webdev.css';
 const styles = {
     webHead: {
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/realwebdevtop.jpg)`,
         width: '100%',
-        height: '300px',
         textAlign: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

@@ -9,12 +9,12 @@ const styles = {
     GDhead: {
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/graphicdesignheader.jpg)`,
         width: '100%',
-        height: '300px',
         textAlign: 'center',
         backgroundRepeat: 'no-repeat',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundSize: 'cover',
     }
 }
 

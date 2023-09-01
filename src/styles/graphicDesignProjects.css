@@ -9,6 +9,10 @@
     margin-bottom: 1em;
 }
 
+.project-2-images {
+    width: 394px;
+}
+
 .design-project-2 h3 {
     color: white;
     font-size: 25px;
@@ -20,6 +24,9 @@
     text-align: center;
     padding: .25em 0;
 }
+
+
+
 
 
 .design-project-2 p {
@@ -101,6 +108,22 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    .design-project-2 {
+        width: 380px;
+        border: 5px solid #427693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .project-2-images {
+        width: 374px;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     .posters-control h2 {
         font-size: 40px;
@@ -128,6 +151,20 @@
     }
 
 
+    .design-project-2 {
+        width: 405px;
+        border: 5px solid #427693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .project-2-images {
+        width: 394px;
+    }
+
+
 
 }
 
@@ -142,6 +179,21 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .design-project-2 {
+        width: 380px;
+        border: 5px solid #427693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .project-2-images {
+        width: 374px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .poster-btn-img {
         height: 35px;
@@ -153,5 +205,20 @@
         align-items: center;
         width: 50px;
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .design-project-2 {
+        width: 350px;
+        border: 5px solid #427693;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .project-2-images {
+        width: 344px;
     }
 }

@@ -120,13 +120,10 @@ export default function About() {
                                         <p>My role: Handlebars, CSS, Front end JS</p>
                                     </div>
                                 </div>
-                                <div className='pr1-2'>
-                                    <a href='https://ez-trade-project-f4108a29ac96.herokuapp.com/' target='_blank'><button className='about-project-btn'>View Site</button></a>
-                                    <a href='https://github.com/robagraham808/Ez-trade' target='_blank'><button className='about-project-repo-btn'>View Repo</button></a>
-                                </div>
+
                             </div>
                             <div className='pr2'>
-                                <p>This is EZ trade, an ecommerce site that I made with a group in my bootcamp. You can browse products, post products, and add items to cart. I created the logo and graphics in Illustrator, wrote all of the css, all of the handlebars, the majority of the front end JavaScript, and helped out slightly with backedn features such as models and routes.</p>
+                                <p>This is EZ trade, an ecommerce site that I made with a group in my bootcamp. You can browse products, post products, and add items to cart. I created the logo and graphics in Illustrator, wrote all of the css, all of the handlebars, the majority of the front end JavaScript, and helped out slightly with backedn features such as models and routes. View the site <a href='https://ez-trade-project-f4108a29ac96.herokuapp.com/' target='_blank'>Here.</a> View our repo   <a href='https://github.com/robagraham808/Ez-trade' target='_blank'>Here.</a></p>
 
                             </div>
                         </div>
@@ -148,14 +145,9 @@ export default function About() {
                                         <p>My role: Lone Contributor</p>
                                     </div>
                                 </div>
-
-                                <div className='pr1-2'>
-                                    <a href='https://dawsonbolen.github.io/coding-quiz/' target='_blank'><button className='about-project-btn'>View Site</button></a>
-                                    <a href='https://github.com/DawsonBolen/coding-quiz'><button className='about-project-repo-btn' target='_blank'>View Repo</button></a>
-                                </div>
                             </div>
                             <div className='pr2'>
-                                <p>Since most resumes include projects, I'm including it here. But all of my projects can be viewed on the graphic design and web development pages. I created a coding quiz for a class. It's 5 questions long and is timed. It also uses local storage to display the past scores on the last page. I made this using html, css, and JavaScript.</p>
+                                <p>Since most resumes include projects, I'm including it here. But all of my projects can be viewed on the graphic design and web development pages. I created a coding quiz for a class. It's 5 questions long and is timed. It also uses local storage to display the past scores on the last page. I made this using html, css, and JavaScript. View the <a href='https://dawsonbolen.github.io/coding-quiz/' target='_blank'>Site Here.</a> and the github repo   <a href='https://github.com/DawsonBolen/coding-quiz' target='_blank'>Here.</a></p>
                             </div>
                         </div>
                     </div>

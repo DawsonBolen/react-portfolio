@@ -12,7 +12,7 @@ function DesignSectionTwo(props) {
             <div className='design-title'>
                 <h3>{props.project.title}</h3>
             </div>
-            <img src={process.env.PUBLIC_URL + props.project.image} width='394px'></img>
+            <img className='project-2-images' src={process.env.PUBLIC_URL + props.project.image}></img>
             <p>{props.project.description}</p>
         </div>
     )

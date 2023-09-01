@@ -590,8 +590,30 @@ p {
     }
 
     .skill-cell {
-        margin: 0.5em 0.1;
+        margin: 0.5em 0.1em;
 
 
+    }
+
+    #resume {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .skill-cell {
+        margin: 0.3em 2px;
+    }
+}
+
+
+@media screen and (max-width: 312px) {
+    .skill-cell {
+        margin: 0.3em 0;
+    }
+
+    #skills-content {
+        flex-direction: column;
+        align-items: center;
     }
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import '../styles/webdev.css';
 
 function WebDevProjects(props) {
     const [show, setShow] = useState(false)
