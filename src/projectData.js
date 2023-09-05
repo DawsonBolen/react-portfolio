@@ -4,7 +4,7 @@ export const projectsArray = [
     {
         id: 1,
         title: 'Connect 4',
-        description: 'I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game.',
+        description: "I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game. I had this hosted on reclaim hosting and am currently transfering it to github so I don't have to pay for hosting. I will have it up soon but for now it is down if you press the link. ",
         link: 'https://dawson-bolen.com/connect4/index.html',
         image: '/project-images/connect-four.jpg',
     },
@@ -17,14 +17,14 @@ export const projectsArray = [
     {
         id: 3,
         title: 'St Vincent De Paul',
-        description: 'I worked in a group to create a mockup website for St. Vincent de Paul. Their current website was super outdated and they wanted new ideas. We also conducted UX research before finalizing our designs. I was responsible for our creating personas and creating the partners page. Click the button to view the full adobe XD document.',
+        description: 'I worked in a group to create a mockup website for St. Vincent de Paul. Their current website was super outdated and they wanted new ideas. We also conducted UX research before finalizing our designs. I was responsible for our creating personas and creating the partners page. Click the button to view the full adobe XD document. ',
         link: 'https://xd.adobe.com/view/c792ce5e-a6d5-4bb0-86dd-2231d00e27f3-92c1/?fullscreen',
         image: '/project-images/st-vincent.jpg',
     },
     {
         id: 4,
         title: 'Peace Of Heart',
-        description: 'I worked for Peace of Heart therapy doing several tasks. I designed their logo and buisness card as well as created and designed their website. I helped them use vista print to order custom pens and cards alike. It was a good experience working for them.',
+        description: 'I worked for Peace of Heart therapy doing several tasks. I designed their logo and buisness card as well as created and designed their website. I helped them use vista print to order custom pens and cards alike. It was a good experience working for them. ',
         link: 'https://www.peaceofheart-therapy.com/',
         image: '/project-images/peace-of-heart.jpg',
     },
@@ -55,7 +55,7 @@ export const projectsArray = [
     {
         id: 8,
         title: 'Portfolio',
-        description: "I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code. I originally made a multi page portfolio but then converted it to React in order to practice my react skills. I wanted to mention that on top of the work I've shown, every Icon, and Graphic I have created myself using mainly Illustrator, with an exception to lots of the logos in the skills section of my about page. If you would also like to see my old portfolio, I have that linked on the README.",
+        description: "I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code. I originally made a multi page portfolio but then converted it to React in order to practice my react skills. I wanted to mention that on top of the work I've shown, every Icon, and Graphic I have created myself using mainly Illustrator, with an exception to lots of the logos in the skills section of my about page. If you would also like to see my old portfolio, I have that linked on the README. ",
         link: 'https://dawsonbolen.github.io/react-portfolio/',
         image: '/project-images/portfolio.jpg',
         repo: 'https://github.com/DawsonBolen/react-portfolio',
@@ -104,7 +104,7 @@ export const projectsArray = [
     {
         id: 14,
         title: 'EZ Trade',
-        description: "This was our second group project in my coding bootcamp. We came up with EZ-Trade, an ecommerce site that we made for this project. We don't actually sell anything, but it is made as a mock up of a full-stack ecommerce site. We used node.js, express, sql, sequelize, and handlebars to make the site. Everything works, but keep in mind we were limited to two weeks to complete this. Not everything is seeded, the only categories with products so far are automotive and shoes. You can even post products, but you need to post the link of an image, we didn't have enough time to incorporate an image drop or upload API. I was responsible for the design, all the css, and the majority of the front-end JavaScript. I also helped slightly with models and routing. I created the logos and graphics in Illustrator. We also used liveshare so I don't have many commits, I would add them when we met during live share and the project manager would push them. ",
+        description: "This was our second group project in my coding bootcamp. We came up with EZ-Trade, an ecommerce site that we made for this project. We don't actually sell anything, but it is made as a mock up of a full-stack ecommerce site. We used node.js, express, sql, sequelize, and handlebars to make the site. Everything works, but keep in mind we were limited to two weeks to complete this. Not everything is seeded, the only categories with products so far are automotive and shoes. You can even post products, but you need to post the link of an image, we didn't have enough time to incorporate an image drop or upload API. I was responsible for the design, all the css, and the majority of the front-end JavaScript. I also helped slightly with models and routing. I created the logos and graphics in Illustrator. We also used liveshare so I don't have many commits, I would add them when we met during live share and the project manager would push them. Our project manager took it down from Heroku so it wouldn't charge him. To see our site in action you will have to clone repo and run npm i and npm run dev. I will try to contact my group and try to get a walkthrough video created. ",
         link: 'https://ez-trade-project-f4108a29ac96.herokuapp.com/',
         image: '/project-images/ez-trade.jpg',
         repo: 'https://github.com/robagraham808/Ez-trade'
@@ -120,7 +120,7 @@ export const projectsArray = [
     {
         id: 16,
         title: 'Square Share',
-        description: "This was our final project for my coding bootcamp. We created a social networking app called square share. It is a full stack MERN application. You can create discussion threads and add post to those threads. Additionally, you can add comments. My role was primarily front end. I helped a little bit with graph and would have to work with it to get the front end to work properly. I did the majority of the react and all of the css. Additionally, I designed it and created our graphics in illustrator. In addition to the MERN stack, we also used graphql, apollo client, and jwt web tokens for authentication.",
+        description: "This was our final project for my coding bootcamp. We created a social networking app called square share. It is a full stack MERN application. You can create discussion threads and add post to those threads. Additionally, you can add comments. My role was primarily front end. I helped a little bit with graph and would have to work with it to get the front end to work properly. I did the majority of the react and all of the css. Additionally, I designed it and created our graphics in illustrator. In addition to the MERN stack, we also used graphql, apollo client, and jwt web tokens for authentication. ",
         link: 'https://sharesquare-c95734f95f40.herokuapp.com/Home',
         image: '/project-images/square-share.jpg',
         repo: 'https://github.com/DawsonBolen/project-3'
