@@ -12,11 +12,11 @@ export default function About() {
         <main className="about">
             <section className='about-main'>
                 <div className='about-image'>
-                    <img src={process.env.PUBLIC_URL + "/images/gradpicwring.png"} width="300px"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/headshot.png"} width="300px"></img>
                 </div>
                 <div className='about-description'>
                     <h3>About Me</h3>
-                    <p>Hello everyone, my name is Dawson. I am a recent graduate of WSU where I studied Digital Technology and Culture. I focused on UX Design, Graphic Design, and Web Development in my studies there. I am currently enrolled in a full-stack web development (JavaScript) bootcamp through UC Berkeley. Through my education, I have become a web developer with a strong foundation in UX design and graphic design. I am proficient in HTML5, CSS3, JavaScript, and react. I also am skilled in node.js, express.js, mongodb and sql. Additionally, I have some experience with php and graphql. I am more front end focused because I enjoy design and visual layout, but I am a full stack MERN developer.</p>
+                    <p>Hello everyone, my name is Dawson. I am a recent graduate of WSU where I studied Digital Technology and Culture. I focused on UX Design, Graphic Design, and Web Development in my studies there. I just completed a full-stack web development (JavaScript) bootcamp through UC Berkeley. Through my education, I have become a web developer with a strong foundation in UX design and graphic design. I am proficient in HTML5, CSS3, JavaScript, and react. I also am skilled in node.js, express.js, mongodb and sql. Additionally, I have some experience with php and graphql. I am more front end focused because I enjoy design and visual layout, but I am a full stack MERN developer.</p>
                 </div>
             </section>
 

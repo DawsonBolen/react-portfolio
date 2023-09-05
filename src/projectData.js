@@ -116,8 +116,18 @@ export const projectsArray = [
         link: 'https://drive.google.com/file/d/12nNGqZhfPxt7GBSZ-KUogpHxnOpUuCTW/view',
         image: '/project-images/social-network-api.jpg',
         repo: 'https://github.com/DawsonBolen/Social-Network-API'
+    },
+    {
+        id: 16,
+        title: 'Square Share',
+        description: "This was our final project for my coding bootcamp. We created a social networking app called square share. It is a full stack MERN application. You can create discussion threads and add post to those threads. Additionally, you can add comments. My role was primarily front end. I helped a little bit with graph and would have to work with it to get the front end to work properly. I did the majority of the react and all of the css. Additionally, I designed it and created our graphics in illustrator. In addition to the MERN stack, we also used graphql, apollo client, and jwt web tokens for authentication.",
+        link: 'https://sharesquare-c95734f95f40.herokuapp.com/Home',
+        image: '/project-images/square-share.jpg',
+        repo: 'https://github.com/DawsonBolen/project-3'
     }
 ]
+
+
 
 export const designProjects = [
     {
