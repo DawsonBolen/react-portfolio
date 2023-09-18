@@ -22,6 +22,8 @@ I was the sole Contributor
 NA
 
 ## About 
+
+Author: [Dawson Bolen](https://github.com/DawsonBolen)
 Here is the [Repo:](https://github.com/DawsonBolen/react-portfolio) 
 
 This is the link to the deployed [site](https://dawsonbolen.github.io/react-portfolio/)
