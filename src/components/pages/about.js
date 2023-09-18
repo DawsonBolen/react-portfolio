@@ -81,10 +81,10 @@ export default function About() {
                             <p>I worked for Peace of Heart therapy doing several tasks. I designed their logo and buisness card as well as created and designed their website. I helped them use vista print to order custom pens and cards alike. It was just part time contract work so not a full time position, but still it was a good experience working for them.</p>
 
                             <div className='work-titleandicon'>
-                                <img src={process.env.PUBLIC_URL + '/images/loweslogo.png'} height='25px'></img>
-                                <h5>Lowes</h5>
+                                <img src={process.env.PUBLIC_URL + '/images/scholoarship-auditions.jpg'} height='25px'></img>
+                                <h5>Scholarship Auditions</h5>
                             </div>
-                            <p>I would work at Lowes during the summers between school years. I worked as a sales associate in flooring and lumber. I would help with downstocking, cleaning, and other daily department tasks, especially customer service.</p>
+                            <p>I'm interning as a front end developer for ScholarshipAuditions.com. What we are working on is confidential until we have completed it. But I have been helping them create a website using react, css, and I also have been able to use my digital design skills to create graphics and imagery for the project as well.</p>
                         </div>
                     </div>
                 </div>
