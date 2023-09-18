@@ -20,7 +20,7 @@ export const projectsArray = [
     {
         id: 3,
         title: 'Tic Tac Toe',
-        description: 'I created this tic tac toe game using react. I just made it to practice my skills in react and to keep growing them. It is just a regular tic tac toe game. It notifies who wins the game and the streak changes color, and it notifies if its a tie. You also have the option to restart or to play again. Currently it is only a 2 player game, but I may decide to have a single player option vs the computer in the future.',
+        description: 'I created this tic tac toe game using react. I just made it to practice my skills in react and to keep growing them. It is just a regular tic tac toe game. It notifies who wins the game and the streak changes color, and it notifies if its a tie. You also have the option to restart or to play again. Currently it is only a 2 player game, but I may decide to have a single player option vs the computer in the future. ',
         link: 'https://dawsonbolen.github.io/tic-tac-toe/',
         image: '/project-images/tic-tac-toe.jpg',
         repo: 'https://github.com/DawsonBolen/tic-tac-toe'
@@ -137,9 +137,9 @@ export const projectsArray = [
     {
         id: 18,
         title: 'Ecommerce Backend',
-        description: 'This is the backend for an ecommerce site. It handles get requests, delete requests, put requests, and post requests which would all be necassary for running and maintaining an ecommerce site. It is just a backend so it is linked to a walkthrough video.',
+        description: 'This is the backend for an ecommerce site. It handles get requests, delete requests, put requests, and post requests which would all be necassary for running and maintaining an ecommerce site. It is just a backend so it is linked to a walkthrough video. ',
         link: 'https://drive.google.com/file/d/1My8wGW2euyjX2QfpSUE2stbEFQpNqbtg/view',
-        image: '/images/e-commerce.jpg',
+        image: '/project-images/e-commerce.jpg',
         repo: 'https://github.com/DawsonBolen/E-Commerce'
 
     },
