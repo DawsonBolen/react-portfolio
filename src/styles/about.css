@@ -14,7 +14,9 @@ p {
     margin-right: 2em;
 }
 
-
+.head-shot {
+    width: 300px;
+}
 
 .about-description h3 {
     font-size: 25px;
@@ -126,6 +128,114 @@ p {
 .resume-content {
     display: flex;
     flex-wrap: wrap;
+}
+
+.project-control-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.project-button {
+    background-color: #934276;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    width: 20%;
+    padding: 5px;
+}
+
+.project-button:hover {
+    background-color: #769342;
+}
+
+.active-resume-btn {
+    background-color: #769342;
+}
+
+.img-btn {
+    margin-right: 3px;
+}
+
+.resume-image {
+    height: 230px;
+}
+
+.project-button:nth-child(1),
+.project-button:nth-child(2),
+.project-button:nth-child(3),
+.project-button:nth-child(4) {
+    border-right: 2px solid white;
+}
+
+
+.resume-projects-body {
+    display: flex;
+}
+
+.technologies-used {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btns {
+    display: flex;
+}
+
+.repo-btn {
+    background-color: #769342;
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 60px;
+    color: white;
+    margin-left: 5px;
+}
+
+.site-btn {
+    background-color: #769342;
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 60px;
+    color: white;
+    margin-right: 5px;
+}
+
+.site-btn:hover {
+    background-color: #934276;
+}
+
+
+.repo-btn:hover {
+    background-color: #934276;
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.technology p {
+    margin-left: 0.25em;
+}
+
+.resume-projects-img {
+    margin-right: 0.5em;
+}
+
+
+.resume-projects-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0.5em;
 }
 
 
@@ -467,6 +577,43 @@ p {
         margin-left: 0;
 
     }
+
+
+    .resume-projects-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .resume-projects-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    .resume-projects-img {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btns {
+        display: flex;
+        margin: 0.5em 0;
+    }
+
+    .tech-used {
+        margin: 0.25em 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -547,6 +694,16 @@ p {
         margin-right: 2px;
     }
 
+    .project-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-btn {
+        margin: 3px 0;
+    }
 
 }
 
@@ -598,6 +755,15 @@ p {
     #resume {
         width: 99%;
     }
+
+    .resume-image {
+        width: 95%;
+        height: auto;
+    }
+
+    .technologies-used {
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width: 335px) {
@@ -615,5 +781,9 @@ p {
     #skills-content {
         flex-direction: column;
         align-items: center;
+    }
+
+    .head-shot {
+        width: 250px;
     }
 }

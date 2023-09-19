@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../../styles/about.css';
+import PortfolioProjects from '../portfolio-projects';
 
 
 
@@ -12,7 +13,7 @@ export default function About() {
         <main className="about">
             <section className='about-main'>
                 <div className='about-image'>
-                    <img src={process.env.PUBLIC_URL + "/images/headshot.png"} width="300px"></img>
+                    <img className='head-shot' src={process.env.PUBLIC_URL + "/images/headshot.png"}></img>
                 </div>
                 <div className='about-description'>
                     <h3>About Me</h3>
@@ -95,61 +96,7 @@ export default function About() {
                         <h3>Projects</h3>
                     </div>
                     <div id='projects-content'>
-                        <div className='project-content-row'>
-
-                            <div className='pr1'>
-                                <div className='pr1-1'>
-                                    <img src={process.env.PUBLIC_URL + '/project-images/ez-trade.jpg'} width='150px'></img>
-                                    <div className='project-specs'>
-                                        <h3>EZ-Trade</h3>
-                                        <p>Technologies used:</p>
-                                        <div className='tech-used'>
-                                            <img src={process.env.PUBLIC_URL + "/images/htmlicon.png"} width='20px'></img>
-
-                                            <img src={process.env.PUBLIC_URL + "/images/cssicon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/javascripticon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/aiicon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/nodeicon.png"} width='20px'></img>
-
-                                            <img src={process.env.PUBLIC_URL + "/images/expressicon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/sqlicon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/handlebarsicon.png"} width='20px'></img>
-
-                                        </div>
-
-                                        <p>My role: Handlebars, CSS, Front end JS</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className='pr2'>
-                                <p>This is EZ trade, an ecommerce site that I made with a group in my bootcamp. You can browse products, post products, and add items to cart. I created the logo and graphics in Illustrator, wrote all of the css, all of the handlebars, the majority of the front end JavaScript, and helped out slightly with backedn features such as models and routes. View the site <a href='https://ez-trade-project-f4108a29ac96.herokuapp.com/' target='_blank'>Here.</a> View our repo   <a href='https://github.com/robagraham808/Ez-trade' target='_blank'>Here.</a></p>
-
-                            </div>
-                        </div>
-                        <div className='project-line'></div>
-                        <div className='project-content-row'>
-                            <div className='pr1'>
-                                <div className='pr1-1'>
-                                    <img src={process.env.PUBLIC_URL + '/project-images/coding-quiz.jpg'} width='150px'></img>
-                                    <div className='project-specs'>
-                                        <h3>Coding Quiz</h3>
-                                        <p>Technologies used:</p>
-                                        <div className='tech-used'>
-                                            <img src={process.env.PUBLIC_URL + "/images/htmlicon.png"} width='20px'></img>
-
-                                            <img src={process.env.PUBLIC_URL + "/images/cssicon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/javascripticon.png"} width='20px'></img>
-                                            <img src={process.env.PUBLIC_URL + "/images/aiicon.png"} width='20px'></img>
-                                        </div>
-                                        <p>My role: Lone Contributor</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='pr2'>
-                                <p>Since most resumes include projects, I'm including it here. But all of my projects can be viewed on the graphic design and web development pages. I created a coding quiz for a class. It's 5 questions long and is timed. It also uses local storage to display the past scores on the last page. I made this using html, css, and JavaScript. View the <a href='https://dawsonbolen.github.io/coding-quiz/' target='_blank'>Site Here.</a> and the github repo   <a href='https://github.com/DawsonBolen/coding-quiz' target='_blank'>Here.</a></p>
-                            </div>
-                        </div>
+                        <PortfolioProjects />
                     </div>
                 </div>
                 <div className='skills'>

@@ -218,3 +218,79 @@ export const posters = [
         image: '/project-images/culturalcomparrison.jpg'
     }
 ]
+
+export const resumeProjects = [
+    {
+        id: 1,
+        title: 'Square Share',
+        link: 'https://sharesquare-c95734f95f40.herokuapp.com/Home',
+        image: '/project-images/square-share.jpg',
+        repo: 'https://github.com/DawsonBolen/project-3',
+        description: "Most resumes have a projects section so I thought I would include this here to highlight my best works. However, all my projects are on the graphic design or the web development page. This is Square Share, a group project social networking site. you create community discussions, or squares as we call them. I designed all the graphics and the layout, did the majority of the react, all of the css, and helped a little but with graphQL.",
+        technologies: {
+            css: "/images/cssicon.png",
+            JavaScript: "/images/javascripticon.png",
+            React: "/images/reacticon.png",
+            Express: "/images/expressicon.png",
+            Node: "/images/nodeicon.png",
+            MongoDB: "/images/mongodbicon.png",
+            GraphQL: "/images/gqlicon.png",
+            Illustrator: "/images/aiicon.png"
+        }
+    },
+    {
+        id: 2,
+        title: 'EZ Trade',
+        link: 'https://sharesquare-c95734f95f40.herokuapp.com/Home',
+        image: '/project-images/ez-trade.jpg',
+        repo: 'https://github.com/robagraham808/Ez-trade',
+        description: "Most resumes have a projects section so I thought I would include this here to highlight my best works. However, all my projects are on the graphic design or the web development page. This is another group project. It is a full stack ecommerce site called EZ trade that we made. I designed the graphics and the layout, did the majority of the handlebars, all of the css, and the majority of the front end JavaScript. The project Manager took it down so you will have to clone the repo and run it. I am going to try to get a walkthrough video made in the next week or so.",
+        technologies: {
+            css: "/images/cssicon.png",
+            JavaScript: "/images/javascripticon.png",
+            Handlebars: "/images/handlebarsicon.png",
+            Express: "/images/expressicon.png",
+            Node: "/images/nodeicon.png",
+            SQL: "/images/sqlicon.png",
+            Illustrator: "/images/aiicon.png"
+        }
+    },
+    {
+        id: 3,
+        title: 'Tic Tac Toe',
+        description: 'I created this tic tac toe game using react. I just made it to practice my skills in react and to keep growing them. It is just a regular tic tac toe game. It notifies who wins the game and the streak changes color, and it notifies if its a tie. You also have the option to restart or to play again. Currently it is only a 2 player game, but I may decide to have a single player option vs the computer in the future. ',
+        link: 'https://dawsonbolen.github.io/tic-tac-toe/',
+        image: '/project-images/tic-tac-toe.jpg',
+        repo: 'https://github.com/DawsonBolen/tic-tac-toe',
+        technologies: {
+            React: "/images/reacticon.png",
+            css: "/images/cssicon.png",
+            JavaScript: "/images/javascripticon.png",
+            Illustrator: "/images/aiicon.png"
+        }
+    },
+    {
+        id: 4,
+        title: 'Drink Campaign',
+        description: 'This is my drink campaign project which can be seen in detail on the graphic design page. The project had us create a fictional drink campaign based off of a social cause. I chose Pepsi and Earth Day. I created this with Illustrator and in design. The t shirt, poster, and can templates were made in photoshop. ',
+        image: '/project-images/2.jpg',
+        technologies: {
+            Illustrator: "/images/aiicon.png",
+            photoshop: "/images/apicon.png",
+            InDesign: "/images/indesignicon.png"
+        }
+    },
+    {
+        id: 5,
+        title: 'Book Covers',
+        description: "This is my book cover project. This project had us create 2 book covers. I chose American Psycho because I had just watched the movie recently and Lord of the flies because I liked the book. I promise I'm not that dark, but I did pick pretty dark books. I used Illustrator and In-Design to put these together. I also used photoshop for a few minor visual effects. ",
+        image: '/project-images/Lordofthefliesweb.jpg',
+        technologies: {
+            Illustrator: "/images/aiicon.png",
+            photoshop: "/images/apicon.png",
+            InDesign: "/images/indesignicon.png"
+        }
+    },
+
+
+]
