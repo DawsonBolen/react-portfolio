@@ -191,8 +191,8 @@ export default function About() {
                             <h6>Adobe XD</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/dwicon.png"} width='20px'></img>
-                            <h6>Dreamweaver</h6>
+                            <img src={process.env.PUBLIC_URL + "/images/vscode.png"} width='20px'></img>
+                            <h6>VS Code</h6>
                         </div>
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/rwdicon.png"} width='20px'></img>
