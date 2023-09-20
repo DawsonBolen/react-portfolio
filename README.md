@@ -2,7 +2,7 @@
 <br>
 
 ## Description
-This is my portfolio. It includes my work, about me info, resume, and contact information. I included my coding and web dev projects, UX design projects, and Graphic design projects. Note that UX design and Web development work are on the same page because many of the work I've done for both tend to overlap. I built this using react in order to practice my react skills and to upgrade my portfolio. I will link my original multi-page portfolio below for reference. I initially used react router but was advised not to because I was told it doesn't perform well on GitHub pages. I am however proficient with react router. 
+This is my portfolio. It includes my work, about me info, resume, and contact information. I included my coding and web dev projects, UX design projects, and Graphic design projects. Note that UX design and Web development work are on the same page because many of the work I've done for both tend to overlap. I built this using react in order to practice my react skills and to upgrade my portfolio. I will link my original multi-page portfolio below for reference. I initially used react router but was advised not to because I was told it doesn't perform well on GitHub pages. I am however proficient with react router. Additionally, the email form is through a third party, I originally had a php email form, but github pages doesn't support that. They don't even support node so it's all I could really do to have an email form. 
 
 ## Original Portfolio
 Here is my original portfolio if you are interested.

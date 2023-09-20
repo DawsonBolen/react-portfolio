@@ -7,8 +7,12 @@ p {
     justify-content: space-between;
     padding: 3rem 14%;
     align-items: center;
-    background-color: #427693;
+    /* background-color: #427693; */
+    background: linear-gradient(to bottom right, #427693 60%, #467A91 40%);
+    position: relative;
 }
+
+
 
 .about-main img {
     margin-right: 2em;
