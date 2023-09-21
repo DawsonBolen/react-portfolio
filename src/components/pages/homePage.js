@@ -3,7 +3,7 @@ import Skills from '../skills';
 
 const styles = {
     homePic: {
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/Homelargeheaderpicture.png)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/home-image.png)`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         width: '100%',
