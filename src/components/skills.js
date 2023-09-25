@@ -9,8 +9,7 @@ function Skills({ handlePageChange, currentPage }) {
                 <div className="card">
                     <img src={process.env.PUBLIC_URL + "/images/Webdevicon.png"} width="44px" height="34px" alt="desktop computer icon"></img>
                     <h3>Web Development</h3>
-                    <p>I am experienced in web design and development. I am proficient in HTML CSS and JavaScript. I'm skilled in
-                        Node.js, Express.js, React.js, some sql, MongoDB, and some PHP.</p>
+                    <p>I am experienced in web design and development. I am proficient in HTML CSS, JavaScript, Node, Express, React, sql, MongoDB, graphQL, some PHP, and several other skills listed on my about page.</p>
 
                     <a
                         href="#WebDev"

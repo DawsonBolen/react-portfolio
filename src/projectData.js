@@ -181,7 +181,7 @@ export const designProjects = [
     {
         id: 6,
         title: 'Book Cover 2',
-        description: "For one of my graphic design classes, we had to create a color theory diagram that explained the relationships between the different hues on the color wheel as well as explain tint, shade, saturation, temperature, and complementary colors. We also had to incorporate real images that we photographed. I chose to use famous skyscrapers because it made the diagram more interesting and cool to look at.",
+        description: "This was my second book cover design. I chose to do lord of the flies because I think it's a great book, and there is lots of symbolism in the book too work with. I finished this one a lot faster than my other one yet I ended up liking the way this one turned out a bit more than the first one. This was done entirely in Illustrator and In design. ",
         image: '/project-images/Lordofthefliesweb.jpg'
     }
 ]
