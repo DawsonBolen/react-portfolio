@@ -1,37 +1,46 @@
 /*this is used to style all of the other components on the graphic design portfolio page*/
 
 .design-project-2 {
-    width: 405px;
+    width: 1fr;
     border: 5px solid #427693;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 1em;
+    background-color: #182e3b;
 }
 
 .project-2-images {
-    width: 394px;
+    width: 100%;
 }
+
+
 
 .design-project-2 h3 {
     color: white;
     font-size: 25px;
+
 }
 
-.design-title {
-    background-color: #427693;
-    width: 100%;
-    text-align: center;
-    padding: .25em 0;
+.prj-2-ine {
+    width: 90%;
+    height: 3px;
+    background-color: #F4b076;
+    margin-bottom: 5px;
 }
 
 
-
-
+.prj-2-btm {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
 
 .design-project-2 p {
-    margin: 0.5em;
+
     font-size: 14px;
+    color: white;
 }
 
 .posters-container {
@@ -43,35 +52,75 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: #427693;
+    background-color: #182e3b;
     align-items: center;
 }
 
-.posters-control h2 {
-    color: white;
-    margin-left: 2em;
-    font-size: 50px;
+#posters-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#posters-line {
+    width: 120px;
+    height: 8px;
+    background-color: #F4b076;
+    margin-bottom: 0.25em;
+}
+
+.poster-title-line {
+    width: 300px;
+    height: 3px;
+    background-color: #F4b076;
+}
+
+#posters-header h2 {
+    color: #182e3b;
+    font-size: 3.5em;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
+}
+
+.poster-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.poster-name h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #427693;
+    font-size: 2em;
+}
+
+#posters-header p {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .posters-content {
     display: flex;
     padding: 0.5em 4em;
     background-color: #efefef;
+    border-right: 3px solid #182e3b;
+    border-left: 3px solid #182e3b;
+    border-bottom: 3px solid #182e3b;
 }
 
 .poster-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75px;
+    width: 20%;
     height: 75px;
     cursor: pointer;
 }
 
 .poster-button:hover {
-    background-color: #934276;
+    background-color: #769342;
 }
 
 .poster-button[active] {
@@ -82,12 +131,14 @@
     margin-left: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding: 3em 0;
+    gap: 1em;
 }
 
 #control-btns {
     display: flex;
+    width: 100%;
 }
 
 .poster-btn-img {
@@ -110,7 +161,7 @@
 
 @media screen and (max-width: 820px) {
     .design-project-2 {
-        width: 380px;
+        width: 1fr;
         border: 5px solid #427693;
         display: flex;
         flex-direction: column;
@@ -118,9 +169,7 @@
         margin-bottom: 1em;
     }
 
-    .project-2-images {
-        width: 374px;
-    }
+
 
 }
 
@@ -152,7 +201,7 @@
 
 
     .design-project-2 {
-        width: 405px;
+        width: 1fr;
         border: 5px solid #427693;
         display: flex;
         flex-direction: column;
@@ -160,10 +209,10 @@
         margin-bottom: 1em;
     }
 
-    .project-2-images {
-        width: 394px;
-    }
 
+    .poster-name {
+        align-items: center;
+    }
 
 
 }
@@ -176,12 +225,16 @@
     }
 
 
+    #posters-header h2 {
+        font-size: 3em;
+    }
+
 
 }
 
 @media screen and (max-width: 425px) {
     .design-project-2 {
-        width: 380px;
+        width: 1fr;
         border: 5px solid #427693;
         display: flex;
         flex-direction: column;
@@ -189,9 +242,22 @@
         margin-bottom: 1em;
     }
 
-    .project-2-images {
-        width: 374px;
+
+
+    .poster-title-line {
+        width: 250px;
+        height: 3px;
+        background-color: #F4b076;
     }
+
+    #posters-header h2 {
+        color: #182e3b;
+        font-size: 2.75em;
+        font-weight: 900;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -210,7 +276,7 @@
 
 @media screen and (max-width: 380px) {
     .design-project-2 {
-        width: 350px;
+        width: 1fr;
         border: 5px solid #427693;
         display: flex;
         flex-direction: column;
@@ -218,7 +284,5 @@
         margin-bottom: 1em;
     }
 
-    .project-2-images {
-        width: 344px;
-    }
+
 }

@@ -1,14 +1,67 @@
-#drink-campaign-main {
-    display: grid;
-    width: fit-content;
-    margin: 20px auto 0 auto;
-    grid-template: repeat(6, minmax(50px, 225px)) / repeat(5, minmax(50px, 225px));
-    grid-gap: 10px;
-    background-color: #e6e6e6;
+#drink-grid-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #efefef;
     padding: 10px;
+    margin-top: 20px;
+
 }
 
-#photo1 {
+#drink-campaign-main {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    /* grid-template: repeat(6, minmax(50px, 255px)) / repeat(5, minmax(50px, 255px)); */
+    /* grid-template-columns: repeat(5, minmax(50px, 1fr));
+    grid-template-rows: repeat(6, 1fr); */
+    /* grid-template: repeat(6, minmax(50px, 255px)) / repeat(5, 1fr); */
+    grid-template-columns: repeat(5, minmax(50px, 250px));
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 10px;
+
+
+}
+
+
+.drink-card {
+    overflow: hidden;
+
+}
+
+.drink-card img {
+    width: 100%;
+
+}
+
+.small-rectangle {
+    grid-column: span 2;
+    overflow: hidden;
+}
+
+
+
+.square {
+    grid-column: span 1;
+
+}
+
+.long {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+
+.big {
+    grid-column: span 5;
+    grid-row: span 3;
+}
+
+
+
+
+
+
+/* #photo1 {
     grid-column: 1 /5;
     grid-row: 1/3;
 
@@ -22,12 +75,12 @@
     grid-column: 1 / -1;
     grid-row: 5 / 7;
     max-height: 500px;
-}
+} */
 
 
 /*i like how grid let you define an items size based on its column and row layout. you don't have to give the image a fixed size which is nice */
 
-#first-photo {
+/* #first-photo {
     width: 100%;
     aspect-ratio: 2/1;
     object-fit: cover;
@@ -56,6 +109,15 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+} */
+
+
+
+@media screen and (max-width: 1200px) {
+    #drink-grid-container {
+        width: 95%;
+
+    }
 }
 
 
@@ -66,7 +128,10 @@
 
 
     #drink-campaign-main {
-        grid-template: repeat(7, minmax(50px, 220px)) / repeat(4, minmax(50px, 220px));
+        /* grid-template: repeat(7, minmax(50px, 220px)) / repeat(4, minmax(50px, 220px)); */
+
+        grid-template-columns: repeat(4, minmax(50px, 220px));
+        grid-template-rows: repeat(7, auto);
     }
 
 
@@ -92,8 +157,17 @@
 
 @media screen and (max-width: 768px) {
 
-    #drink-campaign-main {
-        grid-template: repeat(7, minmax(50px, 190px)) / repeat(4, minmax(50px, 190px));
+    /* #drink-campaign-main {
+
+        grid-template-columns: repeat(4, minmax(50px, 1fr));
+        grid-template-rows: repeat(7, 1fr);
+
+
+    } */
+
+    #drink-grid-container {
+        width: 99%;
+
     }
 }
 
@@ -108,7 +182,9 @@
 
     #drink-campaign-main {
         display: grid;
-        grid-template: repeat(7, 190px) / 190px 190px;
+        grid-template-columns: repeat(2, minmax(50px, 1fr));
+        grid-template-rows: repeat(7, 1fr);
+
     }
 
     #photo1 {
@@ -125,15 +201,19 @@
         max-height: 380px;
     }
 
+
+
+
+
 }
 
 
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
 
     #drink-campaign-main {
         display: grid;
         grid-template: repeat(7, 170px) / 170px 170px;
     }
 
-}
+} */

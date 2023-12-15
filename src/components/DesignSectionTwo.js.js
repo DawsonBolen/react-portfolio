@@ -9,11 +9,13 @@ function DesignSectionTwo(props) {
     return (
 
         <div className='design-project-2'>
-            <div className='design-title'>
-                <h3>{props.project.title}</h3>
-            </div>
             <img className='project-2-images' src={process.env.PUBLIC_URL + props.project.image}></img>
-            <p>{props.project.description}</p>
+            <div className='prj-2-btm'>
+                <h3>{props.project.title}</h3>
+                <div className='prj-2-ine' />
+                <p>{props.project.description}</p>
+            </div>
+
         </div>
     )
 }

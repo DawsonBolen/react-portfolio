@@ -156,9 +156,9 @@ export const designProjects = [
     },
     {
         id: 2,
-        title: 'Fall City Days',
-        description: 'My High School had a logo design competition for the Fall City Days Run. I won and my design was selected to be put on the T Shirts. With my current skills, I could definately make something better than this. However, my design did get chosen to put on the t shirts, which was a cool experience.',
-        image: '/project-images/fall city fun run p.png'
+        title: 'Color Theory',
+        description: "For one of my graphic design classes, we had to create a color theory diagram that explained the relationships between the different hues on the color wheel as well as explain tint, shade, saturation, temperature, and complementary colors. We also had to incorporate real images that we photographed. I chose to use famous skyscrapers because it made the diagram more interesting and cool to look at.",
+        image: '/project-images/Colordiagramweb.jpg'
     },
     {
         id: 3,
@@ -166,11 +166,12 @@ export const designProjects = [
         description: "I created this logo and this business card for Peace of Heart Therapy. I also completed a re-design of their website and overall improved the design and accessability. I have also created several other assets such as their letterhead design.",
         image: '/project-images/peaceofheartcard.jpg'
     },
+
     {
         id: 4,
-        title: 'Color Theory',
-        description: "For one of my graphic design classes, we had to create a color theory diagram that explained the relationships between the different hues on the color wheel as well as explain tint, shade, saturation, temperature, and complementary colors. We also had to incorporate real images that we photographed. I chose to use famous skyscrapers because it made the diagram more interesting and cool to look at.",
-        image: '/project-images/Colordiagramweb.jpg'
+        title: 'Fall City Days',
+        description: 'My High School had a logo design competition for the Fall City Days Run. I won and my design was selected to be put on the T Shirts. With my current skills, I could definately make something better than this. However, my design did get chosen to put on the t shirts, which was a cool experience.',
+        image: '/project-images/fall-city-fun-run.jpg'
     },
     {
         id: 5,
@@ -182,7 +183,7 @@ export const designProjects = [
         id: 6,
         title: 'Book Cover 2',
         description: "This was my second book cover design. I chose to do lord of the flies because I think it's a great book, and there is lots of symbolism in the book too work with. I finished this one a lot faster than my other one yet I ended up liking the way this one turned out a bit more than the first one. This was done entirely in Illustrator and In design. ",
-        image: '/project-images/Lordofthefliesweb.jpg'
+        image: '/project-images/Lordofthefliesweb-2.jpg'
     }
 ]
 
@@ -190,25 +191,25 @@ export const posters = [
     {
         id: 1,
         title: 'Distracted Driving',
-        description: 'This is an infographic that I made for a class on the dangers of distracted driving. I used adobe Illustrator.',
+        description: 'This was an inforgraphic I made for communications 210. It was a multimedia class where we practiced things like Photoshop and Illustrator. This project had us create an infographic about distracted driving using icons, graphs, and written paragraphs. I created this in adobe Illustrator.',
         image: '/project-images/infographicweb.jpg'
     },
     {
         id: 2,
         title: 'WSU Poster',
-        description: 'In my communications 210 class, I created this WSU poster that was a mockup for a letter sent by the school to advertise to potential students.',
+        description: 'In my communications 210 class, I created this WSU poster that was a mockup for a letter sent by the school to advertise to potential students. I created this using Illustrator, Photoshop, and InDesign.',
         image: '/project-images/wsuletterweb.jpg'
     },
     {
         id: 3,
         title: 'Ski Resort',
-        description: 'This assignment had me create many mockup assets for a made up resteraunt that was supposed to be located on a ski resort. We created mockup logos, icons, and a website interface.',
+        description: 'Once again, this is from my com 210 class. It was an elective but it was really in line with the type of work I was studying in college anyways which was cool. This assignment had me create many mockup assets for a made up resteraunt that was supposed to be located on a ski resort. We created mockup logos, icons, and a website interface.',
         image: '/project-images/skiresort.jpg'
     },
     {
         id: 4,
         title: 'Poster Comic',
-        description: 'This assignment had me create a comic that had to fit on a printed 11x17 poster. I created this simple space themed comic.',
+        description: 'This assignment had me create a comic that had to fit on a printed 11x17 poster. I created this simple space themed comic. I like Sci Fi so I chose to create this simple narrative of an Astronaut going through space to Mars. I really overestimated how much of a narrative I could make in such a small space, but I thought it looked cool at least.',
         image: '/project-images/postercomicweb.jpg'
     },
     {

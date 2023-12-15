@@ -105,6 +105,10 @@
   font-size: 25px;
 }
 
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
 .card p {
   font-family: 'Oswald', sans-serif;
   padding: 20px 10px;
@@ -146,10 +150,31 @@
 footer {
 
   background-color: #427693;
-  padding: 15px 50px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-upper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 15px 50px;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 15px;
+  background-color: #38677c;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-bottom p {
+  color: white;
+  font-size: 9px;
 }
 
 

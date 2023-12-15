@@ -13,7 +13,7 @@
 
 #drink-campaign-description {
     width: 80%;
-    margin: 4rem auto;
+    margin: 4em auto;
     display: flex;
     justify-content: space-between;
 }
@@ -87,7 +87,7 @@
 
 
 #gallery-or-slider {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     height: 75px;
     display: flex;
@@ -103,7 +103,7 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    background-color: #427693;
+    background-color: #934276;
 }
 
 #galery-btn {
@@ -112,15 +112,24 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    background-color: #427693;
+    background-color: #934276;
 }
 
 #galery-btn:hover {
-    background-color: #934276;
+    background-color: #769342;
 }
 
 #slider-btn:hover {
-    background-color: #934276;
+    background-color: #769342;
+}
+
+
+.switch-drink-display {
+    border-bottom: 3px solid grey;
+}
+
+.carousel-grid-active {
+    border-bottom: 3px solid #769342;
 }
 
 
@@ -130,11 +139,15 @@
 }
 
 .design-section-2 {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 90%;
     margin: 1em auto;
+    gap: 20px;
 }
 
 .posters {
@@ -143,28 +156,39 @@
 }
 
 #design-section-3 {
-    display: flex;
     width: 80%;
     margin: 0 auto;
-    flex-wrap: wrap;
+
+}
+
+.section-3-flex {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .p3-img {
-    width: 500px;
+    width: 100%;
+}
+
+#high {
+    width: 94%;
 }
 
 .deseign-3-card {
     display: flex;
-    flex-direction: column;
     margin-bottom: 2em;
+    width: 48%;
+    background-color: #427693;
 }
 
 .design-3-description {
-    width: 500px;
-    background-color: #e6e6e6;
+    width: 50%;
+    background-color: #182e3b;
     padding: 0.5em;
-    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .green-line {
@@ -174,59 +198,85 @@
 }
 
 .purple-line {
-    background-color: #934276;
+    background-color: #F4b076;
     width: 100px;
     height: 4px;
     margin-top: 3px;
 }
 
 .design-3-description h3 {
-    color: #427693;
+    color: white;
     font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
 }
 
 .design-3-description p {
     font-size: 14px;
+    margin-top: 1em;
+    color: white;
+
 }
 
 .design-3-img {
-    background-color: #e6e6e6;
+    background-color: #182e3b;
     display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
+    justify-content: flex-start;
+    width: 50%;
 }
 
 #lapel {
     border: 1px solid #427693;
 }
 
+#design-3-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#design-3-title h2 {
+
+    color: #182e3b;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#other-work-line {
+    width: 120px;
+    height: 8px;
+    background-color: #F4b076;
+    margin-bottom: 0.25em;
+}
 
 
 @media screen and (max-width:1200px) {
 
     #drink-campaign-description {
         width: 90%;
-        margin: 3em auto;
+
     }
 
-    .p3-img {
-        width: 400px;
+    .drink-campaign {
+        margin-top: 50px;
     }
 
-    .design-3-img {
-        background-color: #e6e6e6;
-        display: flex;
-        justify-content: center;
-        width: 400px;
-        height: 400px;
+
+    .cups-icon {
+        height: 3em;
     }
 
-    .design-3-description {
-        width: 400px;
-        background-color: #e6e6e6;
-        padding: 0.5em;
-        height: 175px;
+    #drink-campaign-heading-1 {
+        font-size: 3em;
+    }
+
+    #design-section-3 {
+        width: 95%;
+        margin: 0 auto;
+
     }
 }
 
@@ -248,7 +298,7 @@
 
     #drink-campaign-description {
         width: 95%;
-        margin: 3rem auto;
+        margin: 3em auto;
     }
 
     #GDheader {
@@ -262,6 +312,24 @@
     }
 
 
+    .design-section-2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+
+    .section-3-flex {
+        flex-direction: column;
+
+    }
+
+    .deseign-3-card {
+        width: 80%;
+    }
+
+    #high {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -269,12 +337,7 @@
         width: 99%;
     }
 
-    #design-section-3 {
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        margin: 0 auto;
-    }
+
 }
 
 
@@ -287,12 +350,10 @@
 } */
 
 
-@media screen and (max-width: 768px) {
-
-
+@media screen and (max-width: 800px) {
     #drink-campaign-description {
         width: 95%;
-        margin: 3rem auto;
+        margin: 3em auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -309,6 +370,13 @@
         margin: 2rem 0 2rem 0;
     }
 
+    #drink-campaign-description-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
     #drink-campaign-description-2 p {
         margin-top: 0.5em;
         max-width: 500px;
@@ -321,8 +389,9 @@
     }
 
     #pepsi-earth {
-        width: 500px;
+        width: 90%;
     }
+
 
 
     #cups-icon-mobile {
@@ -332,6 +401,10 @@
     #drink-campaign-heading-1-mobile {
         font-size: 3em;
     }
+}
+
+
+@media screen and (max-width: 768px) {
 
     #gd-top h1 {
         font-size: 3em;
@@ -350,12 +423,24 @@
         height: 200px;
     }
 
-    .design-section-2 {
-        flex-direction: column;
-        align-items: center;
-        width: 99%;
+
+    .deseign-3-card {
+        width: 95%;
     }
 
+
+    #drink-campaign-description-2 p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .design-section-2 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
 }
 
 
@@ -378,17 +463,28 @@
         font-size: 2.5em;
     }
 
-    #design-section-3 {
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
-        margin: 0 auto;
-    }
+
 
     #GD-head {
         height: 180px;
     }
 
+
+    .deseign-3-card {
+        flex-direction: column;
+    }
+
+    .design-3-img {
+        width: 100%;
+    }
+
+    .design-3-description {
+        width: 100%;
+    }
+
+    .deseign-3-card {
+        width: 98%;
+    }
 
 }
 
@@ -418,53 +514,22 @@
     }
 
 
-    .design-3-img {
-        background-color: #e6e6e6;
-        display: flex;
-        justify-content: center;
-        width: 380px;
-        height: 380px;
-    }
 
-    .design-3-description {
-        width: 380px;
-        background-color: #e6e6e6;
-        padding: 0.5em;
-        min-height: 175px;
-    }
 
-    .p3-img {
-        width: 380px;
-    }
+
 
     #GDheader {
         font-size: 2.5em;
 
     }
 
+    #drink-campaign-description-2 p {
+        font-size: 12px;
+    }
+
 }
 
-@media screen and (max-width: 380px) {
-
-    .design-3-img {
-        background-color: #e6e6e6;
-        display: flex;
-        justify-content: center;
-        width: 350px;
-        height: 350px;
-    }
-
-    .design-3-description {
-        width: 350px;
-        background-color: #e6e6e6;
-        padding: 0.5em;
-        min-height: 175px;
-    }
-
-    .p3-img {
-        width: 350px;
-    }
-}
+@media screen and (max-width: 380px) {}
 
 
 @media screen and (max-width:300px) {
@@ -480,23 +545,5 @@
         font-size: 2em;
     }
 
-    .design-3-img {
-        background-color: #e6e6e6;
-        display: flex;
-        justify-content: center;
-        width: 280px;
-        height: 280px;
-    }
-
-    .design-3-description {
-        width: 280px;
-        background-color: #e6e6e6;
-        padding: 0.25em;
-        min-height: 175px;
-    }
-
-    .p3-img {
-        width: 280px;
-    }
 
 }

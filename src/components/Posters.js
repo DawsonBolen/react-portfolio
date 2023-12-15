@@ -11,8 +11,13 @@ const PosterSection = (props) => {
 
     return (
         <div className="posters-container">
+            <div id='posters-header'>
+                <div id='posters-line'></div>
+                <h2>POSTERS</h2>
+                <p>I created several poster and letter sized assignments in school. They range from infographics, to letters, to creative projects. Most of them were done in either illustrator or photoshop. Press the tabs to view the various different projects.The first one is an infographic on distracted driving, the second one is a mockup letter for my college, the third is a mockup layout of a site, the fourth one is a comic I made in a graphic design class, and the last one was an infographic I made for a cultural studies class.</p>
+            </div>
             <div className="posters-control">
-                <h2>Posters</h2>
+
                 <div id='control-btns'>
                     {posters.map((poster, index) => (
                         <div
@@ -31,9 +36,11 @@ const PosterSection = (props) => {
                     <img src={process.env.PUBLIC_URL + posters[selectedPosterIndex].image} height="300px"></img>
                 </div>
                 <div className="posters-content-2">
-                    <h3>posters</h3>
-                    <p>I created several poster and letter sized assignments in school. They range from infographics, to letters, to creative projects. Most of them were done in either illustrator or photoshop. Press the tabs to view the various different projects.</p>
-                    <h3>{posters[selectedPosterIndex].title}</h3>
+                    <div className="poster-name">
+                        <h3>{posters[selectedPosterIndex].title}</h3>
+                        <div className="poster-title-line"></div>
+                    </div>
+
                     <p>{posters[selectedPosterIndex].description}</p>
                 </div>
             </div>

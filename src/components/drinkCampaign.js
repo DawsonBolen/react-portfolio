@@ -4,7 +4,7 @@ import DrinkCarousel from './drink-campaign-carousel'
 import DrinkCampaignGrid from './drink-campaign-grid'
 
 function DrinkCampaignDisplay() {
-    const [displayCarousel, setDisplayCarousel] = useState(true); // Separate state for carousel display
+    const [displayCarousel, setDisplayCarousel] = useState(true);
     const [displayGrid, setDisplayGrid] = useState(false);
 
     const activateCarousel = () => {
@@ -21,10 +21,10 @@ function DrinkCampaignDisplay() {
             {displayCarousel ? <DrinkCarousel /> : null}
             {displayGrid ? <DrinkCampaignGrid /> : null}
             <div id="gallery-or-slider">
-                <div id="slider-btn" onClick={activateCarousel}>
+                <div className={`switch-drink-display ${displayCarousel ? 'carousel-grid-active' : ''}`} id="slider-btn" onClick={activateCarousel}>
                     <img src={process.env.PUBLIC_URL + "/images/slider-icon.png"} height="50px"></img>
                 </div>
-                <div id="galery-btn" onClick={activateGrid}>
+                <div className={`switch-drink-display ${displayGrid ? 'carousel-grid-active' : ''}`} id="galery-btn" onClick={activateGrid}>
                     <img src={process.env.PUBLIC_URL + "/images/grid-icon.png"} height="50px"></img>
                 </div>
             </div>
