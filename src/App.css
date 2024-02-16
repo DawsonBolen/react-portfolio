@@ -475,8 +475,10 @@ textarea {
 
 .header-mobile-top {
   display: flex;
-  padding: 0.25em;
+  padding: 0 0.5em;
   margin: 1rem auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* .main-header-mobile {
@@ -515,13 +517,13 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   height: 20px;
-  position: absolute;
+  /* position: absolute;
   top: 25px;
-  right: 50px;
+  right: 50px; */
 }
 
 .hamburger-bar {
-  background-color: #427693;
+  background-color: #182e3b;
   width: 25px;
   height: 4px;
   border-radius: 50px;

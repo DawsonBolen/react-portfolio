@@ -23,8 +23,13 @@ export default function About() {
 
 
             <section id='resume'>
-                <h2>Resume</h2>
-                <div className='resume-line'></div>
+
+                <div id='resume-labl'>
+                    <div className='resume-line'></div>
+                    <h2>MY RESUME</h2>
+                </div>
+
+
 
                 <div className='education'>
                     <div className="iconplusheading">
@@ -119,6 +124,14 @@ export default function About() {
                             <h6>JavaScript</h6>
                         </div>
                         <div className='skill-cell'>
+                            <img src={process.env.PUBLIC_URL + "/images/reacticon.png"} width='20px'></img>
+                            <h6>React</h6>
+                        </div>
+                        <div className='skill-cell'>
+                            <img src={process.env.PUBLIC_URL + "/images/java-icon.png"} width='29px'></img>
+                            <h6>Java</h6>
+                        </div>
+                        <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/graphicdesignicon.png"} width='22px' height='20px'></img>
                             <h6>Graphic Design</h6>
                         </div>
@@ -130,10 +143,7 @@ export default function About() {
                             <img src={process.env.PUBLIC_URL + "/images/Webdevicon.png"} width='20px' height='19px'></img>
                             <h6>Web Development</h6>
                         </div>
-                        <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/reacticon.png"} width='20px'></img>
-                            <h6>React</h6>
-                        </div>
+
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/nodeicon.png"} width='20px'></img>
                             <h6>Node</h6>
@@ -153,6 +163,10 @@ export default function About() {
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/mernicon.png"} width='20px'></img>
                             <h6>MERN</h6>
+                        </div>
+                        <div className='skill-cell'>
+                            <img src={process.env.PUBLIC_URL + "/images/redux-icon.png"} width='20px'></img>
+                            <h6>Redux</h6>
                         </div>
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/handlebarsicon.png"} width='20px'></img>
@@ -206,10 +220,7 @@ export default function About() {
                             <img src={process.env.PUBLIC_URL + "/images/wixicon.png"} width='20px'></img>
                             <h6>Wix</h6>
                         </div>
-                        <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/accessicon.png"} width='20px'></img>
-                            <h6>Accessibility</h6>
-                        </div>
+
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/webpackicon.png"} width='30px'></img>
                             <h6>Web Pack</h6>
@@ -218,10 +229,7 @@ export default function About() {
                             <img src={process.env.PUBLIC_URL + "/images/gqlicon.png"} width='20px'></img>
                             <h6>GraphQL</h6>
                         </div>
-                        <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/oopicon.png"} height='17px'></img>
-                            <h6>OOP</h6>
-                        </div>
+
                         <div className='skill-cell'>
                             <img src={process.env.PUBLIC_URL + "/images/giticon.png"} width='20px'></img>
                             <h6>Git</h6>
