@@ -1,6 +1,21 @@
+:root {
+    --primary-color: #11151c;
+    --secondary-color: #212d40;
+    --third-color: #364156;
+    --fourth-color: #7d4e57;
+    --font: "Barlow", sans-serif;
+    --fifth-color: #eaac8b;
+    --sixth-color: #feae28;
+}
+
+.GraphicDesign {
+    background-color: var(--primary-color);
+}
+
 #GDheader {
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
     font-size: 4em;
 
 }
@@ -39,8 +54,8 @@
 }
 
 #drink-campaign-heading-1 {
-    color: #427693;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-family: 'Oswald', sans-serif;
     font-size: 3.5em;
     margin-left: .5em;
     margin-top: 7px;
@@ -60,8 +75,8 @@
 }
 
 #drink-campaign-heading-1-mobile {
-    color: #427693;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-family: 'Oswald', sans-serif;
     font-size: 2.5em;
     margin-left: .5em;
     margin-top: 7px;
@@ -92,7 +107,7 @@
     height: 75px;
     display: flex;
     justify-content: flex-start;
-    background-color: #e6e6e6;
+    background-color: var(--third-color);
     align-items: center;
     cursor: pointer;
 }
@@ -103,7 +118,7 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    background-color: #934276;
+    background-color: var(--third-color);
 }
 
 #galery-btn {
@@ -112,24 +127,24 @@
     align-items: center;
     height: 100%;
     width: 50%;
-    background-color: #934276;
+    background-color: var(--third-color);
 }
 
 #galery-btn:hover {
-    background-color: #769342;
+    background-color: var(--fourth-color);
 }
 
 #slider-btn:hover {
-    background-color: #769342;
+    background-color: var(--fourth-color);
 }
 
 
 .switch-drink-display {
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid var(--third-color);
 }
 
 .carousel-grid-active {
-    border-bottom: 3px solid #769342;
+    border-bottom: 3px solid var(--fourth-color);
 }
 
 
@@ -153,6 +168,11 @@
 .posters {
     width: 80%;
     margin: 2em auto;
+}
+
+#design-section-3-cont {
+    width: 100%;
+    background-color: var(--secondary-color);
 }
 
 #design-section-3 {
@@ -179,12 +199,11 @@
     display: flex;
     margin-bottom: 2em;
     width: 48%;
-    background-color: #427693;
+    background-color: var(--third-color);
 }
 
 .design-3-description {
     width: 50%;
-    background-color: #182e3b;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
@@ -192,13 +211,13 @@
 }
 
 .green-line {
-    background-color: #769342;
+    background-color: var(--fourth-color);
     width: 150px;
     height: 3px;
 }
 
 .purple-line {
-    background-color: #F4b076;
+    background-color: var(--sixth-color);
     width: 100px;
     height: 4px;
     margin-top: 3px;
@@ -238,7 +257,7 @@
 
 #design-3-title h2 {
 
-    color: #182e3b;
+    color: white;
     font-size: 3.5em;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
@@ -248,8 +267,9 @@
 #other-work-line {
     width: 120px;
     height: 8px;
-    background-color: #F4b076;
+    background-color: var(--sixth-color);
     margin-bottom: 0.25em;
+    margin-top: 2em;
 }
 
 

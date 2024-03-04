@@ -1,13 +1,23 @@
 /*this is used to style all of the other components on the graphic design portfolio page*/
+:root {
+    --primary-color: #11151c;
+    --secondary-color: #212d40;
+    --third-color: #364156;
+    --fourth-color: #7d4e57;
+    --font: "Barlow", sans-serif;
+    --fifth-color: #eaac8b;
+    --sixth-color: #feae28;
+}
+
 
 .design-project-2 {
     width: 1fr;
-    border: 5px solid #427693;
+    border: 5px solid var(--third-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 1em;
-    background-color: #182e3b;
+    background-color: var(--secondary-color);
 }
 
 .project-2-images {
@@ -25,7 +35,7 @@
 .prj-2-ine {
     width: 90%;
     height: 3px;
-    background-color: #F4b076;
+    background-color: var(--sixth-color);
     margin-bottom: 5px;
 }
 
@@ -52,7 +62,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: #182e3b;
+    background-color: var(--secondary-color);
     align-items: center;
 }
 
@@ -66,18 +76,18 @@
 #posters-line {
     width: 120px;
     height: 8px;
-    background-color: #F4b076;
+    background-color: var(--sixth-color);
     margin-bottom: 0.25em;
 }
 
 .poster-title-line {
     width: 300px;
     height: 3px;
-    background-color: #F4b076;
+    background-color: var(--sixth-color);
 }
 
 #posters-header h2 {
-    color: #182e3b;
+    color: white;
     font-size: 3.5em;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
@@ -91,7 +101,7 @@
 
 .poster-name h3 {
     font-family: 'Oswald', sans-serif;
-    color: #427693;
+    color: white;
     font-size: 2em;
 }
 
@@ -104,7 +114,7 @@
 .posters-content {
     display: flex;
     padding: 0.5em 4em;
-    background-color: #efefef;
+    background-color: var(--third-color);
     border-right: 3px solid #182e3b;
     border-left: 3px solid #182e3b;
     border-bottom: 3px solid #182e3b;
@@ -120,11 +130,11 @@
 }
 
 .poster-button:hover {
-    background-color: #769342;
+    background-color: var(--fourth-color);
 }
 
 .poster-button[active] {
-    background-color: #934276;
+    background-color: var(--fourth-color);
 }
 
 .posters-content-2 {

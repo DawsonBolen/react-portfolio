@@ -42,7 +42,8 @@ export default function GraphicDesign() {
                 </div>
             </section>
             <section id="emailformbod">
-                <h2 id="emailformheader">Reach Out</h2>
+                <div id='contact-orange-line'></div>
+                <h2 id="emailformheader">REACH OUT</h2>
                 <div id="email-form-body">
                     <div className="emailiconimg">
                         <img src={process.env.PUBLIC_URL + "/images/emailformicon.png"} width="270px" height="266px"></img>

@@ -94,7 +94,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div id='projects'>
+                {/* <div id='projects'>
                     <div className="iconplusheading">
                         <img src={process.env.PUBLIC_URL + "/images/projecticonblue.png"} width="33px"
                             alt="briefcase icon symbolizing work and work experience"></img>
@@ -103,7 +103,11 @@ export default function About() {
                     <div id='projects-content'>
                         <PortfolioProjects />
                     </div>
-                </div>
+                </div> */}
+
+            </section>
+
+            <section id='skills-container'>
                 <div className='skills'>
                     <div className="iconplusheading">
                         <img src={process.env.PUBLIC_URL + "/images/skillsicon.png"} width="30px" height="30px"
@@ -112,126 +116,126 @@ export default function About() {
                     </div>
                     <div id='skills-content'>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/htmlicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/htmlicon.png"} width='40px'></img>
                             <h6>html</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/cssicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/cssicon.png"} width='40px'></img>
                             <h6>CSS</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/javascripticon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/javascripticon.png"} width='40px'></img>
                             <h6>JavaScript</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/reacticon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/reacticon.png"} width='40px'></img>
                             <h6>React</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/java-icon.png"} width='29px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/java-icon.png"} width='49px'></img>
                             <h6>Java</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/graphicdesignicon.png"} width='22px' height='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/graphicdesignicon.png"} width='44px' height='22px'></img>
                             <h6>Graphic Design</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/uxdesignicon.png"} width='25px' height='19px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/uxdesignicon.png"} width='50px' height='36px'></img>
                             <h6>UX Design</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/Webdevicon.png"} width='20px' height='19px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/Webdevicon.png"} width='40px' height='38px'></img>
                             <h6>Web Development</h6>
                         </div>
 
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/nodeicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/nodeicon.png"} width='40px'></img>
                             <h6>Node</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/expressicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/expressicon.png"} width='40px'></img>
                             <h6>Express</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/mongodbicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/mongodbicon.png"} width='40px'></img>
                             <h6>MongoDB</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/sqlicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/sqlicon.png"} width='40px'></img>
                             <h6>sql</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/mernicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/mernicon.png"} width='40px'></img>
                             <h6>MERN</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/redux-icon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/redux-icon.png"} width='40px'></img>
                             <h6>Redux</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/handlebarsicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/handlebarsicon.png"} width='40px'></img>
                             <h6>Handlebars</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/sassicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/sassicon.png"} width='40px'></img>
                             <h6>SASS</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/bootstrapicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/bootstrapicon.png"} width='40px'></img>
                             <h6>Bootstrap</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/jqueryicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/jqueryicon.png"} width='40px'></img>
                             <h6>jQuery</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/phpicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/phpicon.png"} width='40px'></img>
                             <h6>php</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/aiicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/aiicon.png"} width='40px'></img>
                             <h6>Adobe Illustrator</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/apicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/apicon.png"} width='40px'></img>
                             <h6>Adobe Photoshop</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/indesignicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/indesignicon.png"} width='40px'></img>
                             <h6>Adobe In Design</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/xdicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/xdicon.png"} width='40px'></img>
                             <h6>Adobe XD</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/vscode.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/vscode.png"} width='40px'></img>
                             <h6>VS Code</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/rwdicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/rwdicon.png"} width='40px'></img>
                             <h6>Responsive Design</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/wpicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/wpicon.png"} width='40px'></img>
                             <h6>Wordpress</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/wixicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/wixicon.png"} width='40px'></img>
                             <h6>Wix</h6>
                         </div>
 
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/webpackicon.png"} width='30px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/webpackicon.png"} width='60px'></img>
                             <h6>Web Pack</h6>
                         </div>
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/gqlicon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/gqlicon.png"} width='40px'></img>
                             <h6>GraphQL</h6>
                         </div>
 
                         <div className='skill-cell'>
-                            <img src={process.env.PUBLIC_URL + "/images/giticon.png"} width='20px'></img>
+                            <img src={process.env.PUBLIC_URL + "/images/giticon.png"} width='40px'></img>
                             <h6>Git</h6>
                         </div>
 

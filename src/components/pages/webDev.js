@@ -42,7 +42,7 @@ export default function WebDev() {
     return (
         <main className="WebDev">
             <section style={styles.webHead} id="web-dev-head">
-                <h1 id="web-dev-header">Web Development</h1>
+                <h1 id="web-dev-header">WEB DEVELOPMENT</h1>
             </section>
             {fullView ? (
 
