@@ -1,7 +1,18 @@
+:root {
+    --primary-color: #11151c;
+    --secondary-color: #212d40;
+    --third-color: #364156;
+    --fourth-color: #7d4e57;
+    --font: "Barlow", sans-serif;
+    --fifth-color: #eaac8b;
+    --sixth-color: #feae28;
+}
+
+
 #drink-grid-container {
     width: 90%;
     margin: 0 auto;
-    background-color: #efefef;
+    background-color: var(--third-color);
     padding: 10px;
     margin-top: 20px;
 

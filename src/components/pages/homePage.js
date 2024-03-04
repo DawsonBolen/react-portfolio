@@ -1,9 +1,10 @@
 import React from 'react';
 import Skills from '../skills';
+import AboutPreview from '../about-preview';
 
 const styles = {
     homePic: {
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage-graphic-version3.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/homepage-graphic-version4.jpg)`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         width: '100%',
@@ -29,6 +30,10 @@ export default function Home({ handlePageChange }) {
             <section id="whatido">
                 <Skills handlePageChange={handlePageChange} currentPage={currentPage} />
             </section>
+
+            {/* <section id='about-preview-homepage'>
+                <AboutPreview handlePageChange={handlePageChange} currentPage={currentPage} />
+            </section> */}
 
         </main>
     );

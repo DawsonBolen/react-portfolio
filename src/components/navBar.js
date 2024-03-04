@@ -71,7 +71,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 </li>
             </ul>
             <a href="https://github.com/DawsonBolen" target='_blank'>
-                <button className='github-button'>github</button>
+                <button className='github-button'>GitHub</button>
             </a>
         </div>
     );

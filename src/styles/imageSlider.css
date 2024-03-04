@@ -1,8 +1,20 @@
+:root {
+    --primary-color: #11151c;
+    --secondary-color: #212d40;
+    --third-color: #364156;
+    --fourth-color: #7d4e57;
+    --font: "Barlow", sans-serif;
+    --fifth-color: #eaac8b;
+    --sixth-color: #feae28;
+}
+
+
+
 #campaign-slider {
     padding: 5px;
     /* background-color: #efefef; */
     /* background-color: #427693; */
-    background-color: #934276;
+    background-color: var(--third-color);
     width: 90%;
     margin: 20px auto 0 auto;
 }
@@ -23,7 +35,7 @@
 }
 
 .svg-btn {
-    fill: #934276;
+    fill: var(--fourth-color);
 }
 
 
@@ -45,7 +57,7 @@
     z-index: 3;
     width: 55px;
     height: 55px;
-    border: solid 4px #769342;
+    border: solid 4px var(--fourth-color);
     opacity: 0.6;
     cursor: pointer;
     border-radius: 100%;
@@ -97,7 +109,7 @@
 
 .carousel-button.btn-background-circle {
     z-index: 5;
-    background-color: #934276;
+    background-color: var(--fourth-color);
 }
 
 
@@ -129,7 +141,7 @@
     margin: 0.5em auto;
     justify-content: space-between;
     /* background-color: #efefef; */
-    background-color: #efefef;
+    /* background-color: #efefef; */
 }
 
 .slide-icon {
@@ -138,7 +150,7 @@
     background-size: cover;
     background-position: center;
     /* border: 2px solid #F4b076; */
-    border-bottom: 4px solid #934276;
+    border-bottom: 4px solid var(--fourth-color);
     opacity: 0.3;
     cursor: pointer;
 
@@ -146,7 +158,7 @@
 
 .slide-icon:hover {
     opacity: 0.5;
-    border-bottom: 4px solid #769342;
+    border-bottom: 4px solid var(--sixth-color);
 }
 
 .active-slide-icon {

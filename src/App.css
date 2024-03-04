@@ -1,70 +1,91 @@
+:root {
+  --primary-color: #11151c;
+  --secondary-color: #212d40;
+  --third-color: #364156;
+  --fourth-color: #7d4e57;
+  --font: "Barlow", sans-serif;
+  --fifth-color: #eaac8b;
+  --sixth-color: #feae28;
+}
+
+
 .nav {
   display: flex;
   justify-content: space-between;
   width: 50%;
+
 }
 
 .main-header {
   display: flex;
   justify-content: space-between;
-  width: 95%;
-  margin: 1rem auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 1em;
   align-items: center;
+  background-color: var(--primary-color);
 }
 
 .github-button {
-  background-color: #769342;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  border: none;
+  color: var(--sixth-color);
+  border: 2px solid var(--sixth-color);
+  font-family: var(--font);
+  font-weight: 700;
   border-radius: 50px;
   width: 100px;
   height: 30px;
   font-size: 16px;
+  background-color: var(--primary-color);
 }
 
 .github-button:hover {
-  background-color: #934276;
+  color: var(--fourth-color);
+  border: 2px solid var(--fourth-color);
 }
 
 
 .nav-item a {
   display: block;
   padding: 10px 20px;
-  color: #427693;
+  color: white;
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: var(--font);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .nav-item a:hover {
-  background-color: #934276;
+  background-color: var(--fourth-color);
   color: white;
 }
 
 .nav-item a:active {
   font-weight: 800;
-  background-color: #93424d;
+  background-color: var(--sixth-color);
 }
 
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 
 
 
 #whatido {
-  background-color: #488099;
+  background-color: var(--secondary-color);
   padding: 10px;
 }
 
 #whatido h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: 600;
+  font-family: var(--font);
+  font-weight: 900;
   font-size: 50px;
   color: white;
   text-align: center;
   padding: 150px 0 5px 0;
-  font-weight: 500;
 }
 
 .style-line-1 {
@@ -92,17 +113,61 @@
   text-align: center;
   height: 350px;
   padding: 20px;
-  background-color: white;
+  background: var(--third-color);
   margin: 10px;
   flex: 1 1 350px;
+  position: relative;
+  overflow: hidden;
 
 }
 
+
+
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--third-color);
+  transition: .5s;
+  z-index: 2;
+}
+
+.card:hover:before {
+  top: 0;
+}
+
+
+.card:before {
+  background: var(--fourth-color);
+}
+
+
+
+
+
+
+/* .color-transition {
+  background: var(--third-color);
+  transition: background 0.5s ease;
+}
+
+.color-transition:hover {
+  background: var(--primary-color);
+} */
+
+
+
 .card h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #934276;
+  font-family: var(--font);
+  color: white;
   padding: 10px 0;
   font-size: 25px;
+  z-index: 5;
+
 }
 
 p {
@@ -114,15 +179,24 @@ p {
   padding: 20px 10px;
   font-size: 12px;
   line-height: 1.5;
+  color: white;
+  z-index: 5;
 }
 
+.card img {
+  z-index: 5;
+}
+
+.card a {
+  z-index: 5;
+}
 
 /*the cards grow a border and box shadow when they are hovered over */
-
-.card:hover {
-  border: 3px solid #769342;
-  box-shadow: 3px 2px 3px gray;
-}
+/* box-shadow: 3px 2px 3px navy; */
+/* .card:hover {
+ 
+  background-color: var(--primary-color);
+} */
 
 
 /*the cards grow a border and box shadow when they are hovered over */
@@ -130,7 +204,7 @@ p {
 
 
 .skill-button {
-  background-color: #769342;
+  background-color: var(--sixth-color);
   border: none;
   border-radius: 50px;
   color: white;
@@ -138,10 +212,12 @@ p {
   width: 70px;
   height: 20px;
   font-size: 10px;
+
 }
 
 .skill-button:hover {
-  background-color: #934276 !important;
+  background-color: white !important;
+  color: var(--primary-color);
 }
 
 
@@ -149,7 +225,7 @@ p {
 
 footer {
 
-  background-color: #427693;
+  background-color: var(--primary-color);
 
   display: flex;
   flex-direction: column;
@@ -160,13 +236,13 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 15px 50px;
+  padding: 30px 50px;
 }
 
 .footer-bottom {
   width: 100%;
   height: 15px;
-  background-color: #38677c;
+  background-color: #0a0d11;
   display: flex;
   justify-content: center;
 }
@@ -196,9 +272,7 @@ footer a {
   margin-right: 0.5em;
 }
 
-#github-footer {
-  display: none;
-}
+
 
 /* About */
 
@@ -211,7 +285,27 @@ footer a {
 }
 
 
+#about-preview-homepage {
+  background-color: var(--primary-color);
+}
 
+
+.head-shot-transparent {
+  width: 500px;
+}
+
+#about-preview-home {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+
+}
+
+#about-preview-home h2 {
+  font-family: var(--font);
+  font-size: 1em;
+  color: var(--sixth-color);
+}
 
 
 .about-description h3 {
@@ -296,7 +390,7 @@ footer a {
 } */
 
 #contact-top {
-  background-color: #427693;
+  background-color: var(--primary-color);
   width: 100%;
   text-align: center;
 }
@@ -388,11 +482,11 @@ label {
 }
 
 .Contact {
-  background-color: #efefef;
+  background-color: var(--secondary-color);
 }
 
 #butn {
-  background-color: #427693;
+  background-color: var(--fourth-color);
   padding: 7px 4px;
   color: white;
   font-size: 18px;
@@ -403,15 +497,22 @@ label {
 }
 
 #butn:hover {
-  background-color: #934276;
+  background-color: var(--sixth-color);
 }
 
 #emailformheader {
   font-size: 45px;
-  color: #427693;
+  color: white;
   text-align: center;
-  margin-top: 50px;
+
   margin-bottom: 50px;
+}
+
+#contact-orange-line {
+  width: 120px;
+  height: 8px;
+  background-color: var(--sixth-color);
+  margin: 0 auto 0.5em auto;
 }
 
 
@@ -575,9 +676,7 @@ textarea {
     width: 80%;
   }
 
-  #github-footer {
-    display: block;
-  }
+
 
 }
 
