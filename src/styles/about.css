@@ -568,7 +568,6 @@ p {
     .education-line {
         width: 75%;
         height: 3px;
-        background-color: #e6e6e6;
     }
 
     .education-row {
@@ -593,7 +592,6 @@ p {
     .work-line {
         width: 75%;
         height: 3px;
-        background-color: #e6e6e6;
         margin: 1em 0;
     }
 
@@ -609,7 +607,6 @@ p {
     .project-line {
         width: 75%;
         height: 3px;
-        background-color: #e6e6e6;
         margin: 1em 0;
     }
 
@@ -624,7 +621,6 @@ p {
         justify-content: space-between;
         padding: 1em 2em;
         align-items: center;
-        background-color: #427693;
     }
 
 }
@@ -664,7 +660,7 @@ p {
         justify-content: space-between;
         padding: 1em 2em;
         align-items: center;
-        background-color: #427693;
+
     }
 
     .about-main img {
@@ -797,7 +793,6 @@ p {
     .about-project-repo-btn {
         width: 40px;
         height: 14px;
-        background-color: #769342;
         border: none;
         color: white;
         border-radius: 20px;
@@ -808,7 +803,6 @@ p {
     .about-project-btn {
         width: 40px;
         height: 14px;
-        background-color: #769342;
         border: none;
         color: white;
         border-radius: 20px;
@@ -837,7 +831,6 @@ p {
     .resume-line {
         width: 100px;
         height: 7px;
-        background-color: #F4b076;
         margin-bottom: 0.25em;
     }
 

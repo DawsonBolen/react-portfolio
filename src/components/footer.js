@@ -3,6 +3,9 @@ import React from 'react';
 export default function Footer() {
     return (
         <footer>
+            <div id='footer-upper-line'>
+
+            </div>
             <div className='footer-upper'>
                 <a className="footer-link" href="mailto: dawson120@live.com">
                     <div className="footer-contact">

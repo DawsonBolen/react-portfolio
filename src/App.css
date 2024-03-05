@@ -247,6 +247,12 @@ footer {
   justify-content: center;
 }
 
+#footer-upper-line {
+  background-color: var(--sixth-color);
+  height: 3px;
+  width: 100%;
+}
+
 
 .footer-bottom p {
   color: white;
@@ -571,25 +577,25 @@ textarea {
   width: 100%;
   height: 100vh;
   z-index: 10;
-  background-color: #934276;
+  background-color: var(--fourth-color);
 }
 
 .header-mobile-top {
   display: flex;
-  padding: 0 0.5em;
-  margin: 1rem auto;
+  padding: 1em 0.5em;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
+
 }
 
-/* .main-header-mobile {
-  margin: 1rem auto;
-} */
+.main-header-mobile {
+  background-color: var(--primary-color);
+}
 
 .nav-item-mobile {
   display: flex;
   justify-content: center;
-  background-color: #934276;
   width: 100%;
   padding: 0.25em;
   margin-bottom: 2em;
@@ -600,7 +606,7 @@ textarea {
 }
 
 .nav-item-mobile:hover>a {
-  color: #934276;
+  color: var(--fourth-color);
 }
 
 .nav-item-mobile li {
@@ -624,15 +630,15 @@ textarea {
 }
 
 .hamburger-bar {
-  background-color: #182e3b;
-  width: 25px;
+  background-color: var(--sixth-color);
+  width: 28px;
   height: 4px;
   border-radius: 50px;
 
 }
 
 .hamburger-menu:hover>.hamburger-bar {
-  background-color: #934276;
+  background-color: var(--fourth-color);
 }
 
 
@@ -732,6 +738,16 @@ textarea {
 
   #emailformbod {
     padding: 100px 0;
+  }
+
+
+  #whatido h2 {
+    font-family: var(--font);
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 5px 0;
   }
 
 
