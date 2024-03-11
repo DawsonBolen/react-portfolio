@@ -25,7 +25,7 @@ export default function About() {
             <section id='resume'>
 
                 <div id='resume-labl'>
-                    <div className='resume-line'></div>
+                    <div id='resume-line-orange'></div>
                     <h2>MY RESUME</h2>
                 </div>
 

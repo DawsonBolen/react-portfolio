@@ -132,10 +132,12 @@
 
 #galery-btn:hover {
     background-color: var(--fourth-color);
+    border-bottom: 3px solid var(--fourth-color);
 }
 
 #slider-btn:hover {
     background-color: var(--fourth-color);
+    border-bottom: 3px solid var(--fourth-color);
 }
 
 
@@ -238,14 +240,14 @@
 }
 
 .design-3-img {
-    background-color: #182e3b;
+    background-color: var(--third-color);
     display: flex;
     justify-content: flex-start;
     width: 50%;
 }
 
 #lapel {
-    border: 1px solid #427693;
+    border: 1px solid var(--primary-color);
 }
 
 #design-3-title {
@@ -293,6 +295,10 @@
         font-size: 3em;
     }
 
+    #design-3-title h2 {
+        font-size: 3em;
+    }
+
     #design-section-3 {
         width: 95%;
         margin: 0 auto;
@@ -306,6 +312,8 @@
     #drink-campaign-heading-1 {
         font-size: 2em;
     }
+
+
 
     #cups-icon {
         height: 2.25em;
@@ -483,6 +491,10 @@
         font-size: 2.5em;
     }
 
+    #design-3-title h2 {
+        font-size: 2.5em;
+    }
+
 
 
     #GD-head {
@@ -504,6 +516,11 @@
 
     .deseign-3-card {
         width: 98%;
+    }
+
+    #other-work-line {
+        width: 100px;
+        height: 7px;
     }
 
 }

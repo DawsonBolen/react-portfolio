@@ -248,8 +248,9 @@ footer {
 }
 
 #footer-upper-line {
-  background-color: var(--sixth-color);
-  height: 3px;
+  /* background-color: var(--third-color); */
+  background-color: var(--third-color);
+  height: 2px;
   width: 100%;
 }
 
@@ -507,7 +508,7 @@ label {
 }
 
 #emailformheader {
-  font-size: 45px;
+  font-size: 3.5em;
   color: white;
   text-align: center;
 
@@ -751,6 +752,11 @@ textarea {
   }
 
 
+  #emailformheader {
+    font-size: 3em;
+  }
+
+
 }
 
 
@@ -801,7 +807,16 @@ textarea {
 
   #emailformheader {
     margin-bottom: 0.25em;
-    margin-top: 1em;
+  }
+
+  #emailformheader {
+    font-size: 2.5em;
+  }
+
+  #contact-orange-line {
+    width: 100px;
+    height: 7px;
+
   }
 }
 

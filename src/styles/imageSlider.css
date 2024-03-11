@@ -138,8 +138,9 @@
 #slide-icons {
     display: flex;
     width: 90%;
-    margin: 0.5em auto;
+    margin: 0 auto;
     justify-content: space-between;
+    background-color: var(--third-color);
     /* background-color: #efefef; */
     /* background-color: #efefef; */
 }
@@ -201,7 +202,6 @@ li.slide.active {
 @media screen and (max-width:1200px) {
     #campaign-slider {
         padding: 10px;
-        background-color: #efefef;
         width: 95%;
         margin: 0 auto;
     }
@@ -234,7 +234,6 @@ li.slide.active {
 @media screen and (max-width:992px) {
     #campaign-slider {
         padding: 10px;
-        background-color: #efefef;
         width: 95%;
         margin: 0 auto;
     }
@@ -273,7 +272,6 @@ li.slide.active {
 
     #campaign-slider {
         padding: 10px;
-        background-color: #efefef;
         width: 99%;
         margin: 0 auto;
     }

@@ -160,7 +160,7 @@
     .posters-content {
         display: flex;
         padding: 0.25em 2em;
-        background-color: #efefef;
+
     }
 
     .posters-content-2 {
@@ -192,7 +192,7 @@
     .posters-content {
         display: flex;
         padding: 0.25em 2em;
-        background-color: #efefef;
+
     }
 }
 
@@ -212,7 +212,6 @@
 
     .design-project-2 {
         width: 1fr;
-        border: 5px solid #427693;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -240,12 +239,17 @@
     }
 
 
+    #posters-line {
+        width: 100px;
+        height: 7px;
+    }
+
+
 }
 
 @media screen and (max-width: 425px) {
     .design-project-2 {
         width: 1fr;
-        border: 5px solid #427693;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -257,11 +261,9 @@
     .poster-title-line {
         width: 250px;
         height: 3px;
-        background-color: #F4b076;
     }
 
     #posters-header h2 {
-        color: #182e3b;
         font-size: 2.75em;
         font-weight: 900;
         font-family: 'Oswald', sans-serif;
@@ -287,7 +289,6 @@
 @media screen and (max-width: 380px) {
     .design-project-2 {
         width: 1fr;
-        border: 5px solid #427693;
         display: flex;
         flex-direction: column;
         align-items: center;

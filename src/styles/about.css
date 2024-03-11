@@ -151,7 +151,7 @@ p {
     font-family: 'Oswald', sans-serif;
 }
 
-.resume-line {
+#resume-line-orange {
     width: 120px;
     height: 8px;
     background-color: var(--sixth-color);
@@ -828,7 +828,7 @@ p {
 
     }
 
-    .resume-line {
+    #resume-line-orange {
         width: 100px;
         height: 7px;
         margin-bottom: 0.25em;
