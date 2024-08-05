@@ -258,7 +258,7 @@ export const projectsArray = [
     {
         id: 8,
         title: 'NBA Highlights',
-        description: "This was a group project in my coding bootcamp. We created an NBA Highlights app that allows the user to search up a team, get that teams record, and get game stats for every game of their season. Additionally, it used the youtube api to retrieve relevant videos. My personal job was being the main person in charge of the NBA Api. It was a very simple api which limitied what we could do. It just returned raw text data, however, because of this I really got to practice and refine my skills with JavaScript logic. Try it out for yourself. ",
+        description: "This was a group project in my coding bootcamp. We created an NBA Highlights app that allows the user to search up a team, get that teams record, and get game stats for every game of their season. Additionally, it used the youtube api to retrieve relevant videos. My personal job was being the main person in charge of the NBA Api. It was a very simple api which limitied what we could do. It just returned raw text data, however, because of this I really got to practice and refine my skills with JavaScript logic. Unfortunately, the Ball Don't Lie API no longer exists, so the main portion of this project no longer works. ",
         shortDescription: 'NBA API app',
         link: 'https://rau1avi1a.github.io/NBA-Highlights/',
         image: '/project-images/NBA-Highlights.jpg',
@@ -320,12 +320,11 @@ export const projectsArray = [
     },
     {
         id: 10,
-        title: 'Portfolio',
-        description: "I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code. I originally made a multi page portfolio but then converted it to React in order to practice my react skills. I wanted to mention that on top of the work I've shown, every Icon, and Graphic I have created myself using mainly Illustrator, with an exception to lots of the logos in the skills section of my about page. If you would also like to see my old portfolio, I have that linked on the README. ",
+        title: 'Between Bands',
+        description: "I interned for Scholarship Auditions as the lead developer for the Between Bands project. It is a platform that serves to entertain marching contest goers while also advertising the services of Scholarship Auditions. It features activities, games, and articles. I was the lead developer and developed all of the games and activities except the trivia game. I was also the project manager and designer of the site. I used to creative skills to enhance site visuals with graphics and images as well.",
         shortDescription: 'My Portfolio Code',
-        link: 'https://dawsonbolen.github.io/react-portfolio/',
-        image: '/project-images/portfolio.jpg',
-        repo: 'https://github.com/DawsonBolen/react-portfolio',
+        link: 'https://betweenbands.org/',
+        image: '/project-images/between-bands.jpg',
         technologies: [
             {
                 techName: "React",
