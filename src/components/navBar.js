@@ -2,8 +2,7 @@ import React from 'react';
 
 const styles = {
     headerLogo: {
-        width: '150px',
-        height: '40px',
+        width: '55px',
     }
 }
 
