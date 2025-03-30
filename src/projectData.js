@@ -4,6 +4,76 @@ export const projectsArray = [
 
     {
         id: 1,
+        title: 'Alpha Builders',
+        shortDescription: 'Freelance Project',
+        description: "As a solo freelance developer, I created a website for alpha builders, a general contracter in Enumclaw, WA. I built the site with React and aside from a clean modern design and custom React components, I also built a Node.js / Express CMS system for Alpha Builders to update and upload new content. The CMS system is hosted on app engine and allows image posting to accompany project posts. The images are uploaded to a Google Cloud Platform storage bucket for storage and retrieval. Additionally the site has a working email form. ",
+        image: '/project-images/ab.jpg',
+        link: 'https://alphabuilders-wa.com/',
+
+        technologies: [
+            {
+                techName: "CSS",
+                techIcon: "/images/cssicon.png"
+            },
+            {
+                techName: "JavaScript",
+                techIcon: "/images/javascripticon.png"
+            },
+            {
+                techName: "React",
+                techIcon: "/images/reacticon.png"
+            },
+            {
+                techName: "Express",
+                techIcon: "/images/expressicon.png"
+            },
+            {
+                techName: "Node",
+                techIcon: "/images/nodeicon.png"
+            },
+
+            {
+                techName: "MongoDB",
+                techIcon: "/images/mongodbicon.png"
+            },
+
+
+
+        ]
+
+    },
+
+    {
+        id: 2,
+        title: 'Between Choirs',
+        shortDescription: 'Freelance Project',
+        description: "As a solo freelance developer, I created another website for Scholarship Auditions, the company I had previously interned for. This React Web application was similar to Between Bands but Featured a different UI design. With the Extra time I was able to improve the games and Activities, making them feel more native to mobile devices like a mobile app or game. ",
+        image: '/project-images/between-choirs.jpg',
+        link: 'https://betweenchoirs.com/',
+
+        technologies: [
+            {
+                techName: "CSS",
+                techIcon: "/images/cssicon.png"
+            },
+            {
+                techName: "JavaScript",
+                techIcon: "/images/javascripticon.png"
+            },
+            {
+                techName: "React",
+                techIcon: "/images/reacticon.png"
+            },
+
+
+
+
+        ]
+
+    },
+
+    {
+        id: 3,
         title: 'EZ Trade',
         shortDescription: 'Ecommerce Website',
         description: "EZ trade was a full stack ecommerce site that I made along with a group for a project. We used Handlebars, JavaScript, Express, Node, and CSS. I helped slightly with routing and express, but my role was primarily front end. I did the majority of the front end work. I did all of the design and css, created all of our graphics using adobe Illustrator, designed the logo, and did the majority of the front-end JavaScript and handlebars. We used live share, so it probably looks like one member did all of the pushes, but everyone contributed. The project manager took it down so he wouldn't be charged so you can clone the repo and run npm i and npm run dev to view our site in action. I will work to get a walkthrough video up in the next week or so.  ",
@@ -48,7 +118,7 @@ export const projectsArray = [
 
     },
     {
-        id: 2,
+        id: 4,
         title: 'Square Share',
         shortDescription: 'Social Network App',
         description: "This was our final project for my coding bootcamp. We created a social networking app called square share. It is a full stack MERN application. You can create discussion threads and add post to those threads. Additionally, you can add comments. My role was primarily front end. I helped a little bit with graph and would have to work with it to get the front end to work properly. I did the majority of the react and all of the css. Additionally, I designed it and created our graphics in illustrator. In addition to the MERN stack, we also used graphql, apollo client, and jwt web tokens for authentication. ",
@@ -96,7 +166,7 @@ export const projectsArray = [
 
     },
     {
-        id: 3,
+        id: 5,
         title: 'Tic Tac Toe',
         shortDescription: 'React Game',
         description: 'I created this tic tac toe game using react. I just made it to practice my skills in react and to keep growing them. It is just a regular tic tac toe game. It notifies who wins the game and the streak changes color, and it notifies if its a tie. You also have the option to restart or to play again. It can be played as a 2 player game or 1 player vs the computer.',
@@ -127,7 +197,7 @@ export const projectsArray = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         title: 'Connect 4',
         description: "I created a connect 4 game for a class using HTML, CSS, and JavaScript. This was one of my first major projects for school several years ago, so i may decide to improve it since I've learned a lot since then. Press the button to view the site and play the game. ",
         shortDescription: 'connect 4 game',
@@ -160,7 +230,7 @@ export const projectsArray = [
         ]
     },
     {
-        id: 5,
+        id: 7,
         title: 'St Vincent De Paul',
         description: 'I worked in a group to create a mockup website for St. Vincent de Paul. Their current website was super outdated and they wanted new ideas. We also conducted UX research before finalizing our designs. I was responsible for our creating personas and creating the partners page. Click the button to view the full adobe XD document. ',
         shortDescription: 'UX Design Project',
@@ -187,7 +257,7 @@ export const projectsArray = [
 
     },
     {
-        id: 6,
+        id: 8,
         title: 'Peace Of Heart',
         description: 'I worked for Peace of Heart therapy doing several tasks. I designed their logo and buisness card as well as created and designed their website. I helped them use vista print to order custom pens and cards alike. It was a good experience working for them. ',
         shortDescription: 'Web Design',
@@ -222,7 +292,7 @@ export const projectsArray = [
 
     },
     {
-        id: 7,
+        id: 9,
         title: 'Coding Quiz',
         description: "I created a coding quiz for a class. It's 5 questions long and is timed. It also uses local storage to display the past scores on the last page. I made this using html, css, and JavaScript. ",
         shortDescription: 'Timed Coding Quiz',
@@ -256,7 +326,7 @@ export const projectsArray = [
 
     },
     {
-        id: 8,
+        id: 10,
         title: 'NBA Highlights',
         description: "This was a group project in my coding bootcamp. We created an NBA Highlights app that allows the user to search up a team, get that teams record, and get game stats for every game of their season. Additionally, it used the youtube api to retrieve relevant videos. My personal job was being the main person in charge of the NBA Api. It was a very simple api which limitied what we could do. It just returned raw text data, however, because of this I really got to practice and refine my skills with JavaScript logic. Unfortunately, the Ball Don't Lie API no longer exists, so the main portion of this project no longer works. ",
         shortDescription: 'NBA API app',
@@ -284,7 +354,7 @@ export const projectsArray = [
 
     },
     {
-        id: 9,
+        id: 11,
         title: 'Workday Scheduler',
         description: "This was an assignment in my coding bootcamp class. We took existing html and css, but added our own J Querry code to create a workday scheduler. This used many concepts such as J Querry and local storage. ",
         shortDescription: 'Workday scheduling app',
@@ -319,7 +389,7 @@ export const projectsArray = [
 
     },
     {
-        id: 10,
+        id: 12,
         title: 'Between Bands',
         description: "I interned for Scholarship Auditions as the lead developer for the Between Bands project. It is a platform that serves to entertain marching contest goers while also advertising the services of Scholarship Auditions. It features activities, games, and articles. I was the lead developer and developed all of the games and activities except the trivia game. I was also the project manager and designer of the site. I used to creative skills to enhance site visuals with graphics and images as well.",
         shortDescription: 'My Portfolio Code',
@@ -354,7 +424,7 @@ export const projectsArray = [
 
     },
     {
-        id: 11,
+        id: 13,
         title: 'Random Password',
         description: "This assignment was also for my coding bootcamp. We created this Random Password Generator from starting source code and added JavaScript to make it work correctly. ",
         shortDescription: 'Random Password Generator',
@@ -383,7 +453,7 @@ export const projectsArray = [
 
     },
     {
-        id: 12,
+        id: 14,
         title: 'README Generator',
         description: "This assignment was also for my coding bootcamp. We created this README.md Generator from starting source code and added JavaScript to make it work correctly. It uses node.js and inquirerer to build a readme file based on user input. It is a command line app and is not deployed so instead of a link, I added a walkthrough video below. ",
         shortDescription: 'Command Line README Generator',
@@ -407,7 +477,7 @@ export const projectsArray = [
 
     },
     {
-        id: 13,
+        id: 15,
         title: 'SVG Logo Generator',
         description: "This is an app that generates an svg logo from the command line. This was built with node.js and inquirer to take user input in order to generate an svg logo. The user can choose the shape, shape color, text, and text color to create a custom logo. I used an object oriented approach to this assignment. Once again, I included a walkthrough video below. ",
         shortDescription: 'Command line logo generator',
@@ -442,7 +512,7 @@ export const projectsArray = [
 
     },
     {
-        id: 14,
+        id: 16,
         title: 'Note Taker',
         description: "This is a note taking app that uses a JSON data base to create and store notes. It was created using a custom restful API using Node and Express.js",
         shortDescription: 'Note taking app',
@@ -478,7 +548,7 @@ export const projectsArray = [
 
     },
     {
-        id: 15,
+        id: 17,
         title: 'Employee Tracker',
         description: "This is an employee tracker app that uses node.js, express.js, and sql. You can add employees, add roles, add departments, and add managers as well as delete and edit each of these as well. It is a command line app so it is not deployed. You may view the repo and the walkthrough video however. ",
         shortDescription: 'Command Line Employee Tracker',
@@ -514,7 +584,7 @@ export const projectsArray = [
 
     },
     {
-        id: 16,
+        id: 18,
         title: 'Social Network API',
         description: "This is a social network API. It is just a backend server application so it is not deployed to anything. It can be tested in Insomnia and you can view the repo and watch my walkthrough video. I used Node, MongoDB, Mongoose, and Express to create this api. You can add users, create thoughts which are supposed to be like posts for any social media site, you can add reactions to those thoughts, and you can add friends to users. Additionally, you can delete all of these or edit them as well. ",
         shortDescription: 'MongoDB Social Network API',
@@ -549,7 +619,7 @@ export const projectsArray = [
 
     },
     {
-        id: 17,
+        id: 19,
         title: 'NAMI',
         description: 'I worked with a group to create a website for Nami North Central Idaho. I helped design it and was in charge of the technical side of the project as well. Unfortunately, they are no longer around so the site is no longer there. Their organization just merged with NAMI Idaho. It is unfortunate, however, this was a great learning experience to actually work for a real client.',
         shortDescription: 'Website Build',
@@ -582,7 +652,7 @@ export const projectsArray = [
 
     },
     {
-        id: 18,
+        id: 20,
         title: 'Ecommerce Backend',
         description: 'This is the backend for an ecommerce site. It handles get requests, delete requests, put requests, and post requests which would all be necassary for running and maintaining an ecommerce site. It is just a backend so it is linked to a walkthrough video. ',
         shortDescription: 'Ecommerce Backend using MongoDB',
