@@ -23,17 +23,18 @@ const styles = {
 export default function Home({ handlePageChange }) {
     const currentPage = 'Home';
     return (
-        <main className="main-home">
-            <section style={styles.homePic} className='home-image'>
+        <main style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg.png)` }} className="main-home">
+            <div id='home-content'>
+                <h1>Checkout My new Portfolio</h1>
 
-            </section>
-            <section id="whatido">
-                <Skills handlePageChange={handlePageChange} currentPage={currentPage} />
-            </section>
+                <p>It may still be under construction but it is near complete, I will no longer be using this site</p>
 
-            {/* <section id='about-preview-homepage'>
-                <AboutPreview handlePageChange={handlePageChange} currentPage={currentPage} />
-            </section> */}
+                <a href='https://www.dawsonbolen.com/' target='_blank'>
+                    <button>Click Here</button>
+                </a>
+
+            </div>
+
 
         </main>
     );
